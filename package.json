@@ -1,6 +1,6 @@
 {
-  "name": "@overdoser/material-ui-form-helpers",
-  "version": "0.0.1",
+  "name": "@laurentiu1981/material-ui-form-helpers",
+  "version": "0.0.2",
   "description": "Render helpers for material ui inputs",
   "main": "index.js",
   "scripts": {
