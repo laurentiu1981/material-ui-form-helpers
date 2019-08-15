@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-  entry: './src/index.js',
+  entry: './index.js',
   module: {
     rules: [
       {
@@ -12,7 +12,7 @@ module.exports = {
         },
       },
       {
-        test: /\.scss$/,
+        test: /\.(scss|css)$/,
         use: [
           { loader: 'style-loader' },
           { loader: 'css-loader' },
@@ -36,7 +36,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist/'),
     publicPath: '',
-    filename: 'rinse.js',
+    filename: 'matuihelpers.js',
     libraryTarget: 'umd',
   },
 };
