@@ -1,3 +1,1 @@
-const dymmyFunction = () => 1;
-
-export default dymmyFunction;
+export * from  "./src/renderField";
