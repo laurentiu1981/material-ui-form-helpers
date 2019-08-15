@@ -1,8 +1,7 @@
 import React from 'react';
-import FieldSelect from './FieldSelect';
-import {TextField, Typography} from "@material-ui/core";
-import {FieldCheckbox} from "./components";
-import {makeStyles} from "@material-ui/styles";
+import { TextField, Typography } from "@material-ui/core";
+import { FieldCheckbox, FieldSelect } from "./components";
+import { makeStyles } from "@material-ui/styles";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 
@@ -97,7 +96,7 @@ const selectField = ({input, label, type, options, meta: {touched, error}}) => {
       </label>
       <div>
         <select {...input} placeholder={label}>
-          <option key="_none" value="" disabled hidden> </option>
+          <option key="_none" value="" disabled hidden></option>
           {
             Object.entries(options).map(([key, value]) =>
               (
@@ -171,13 +170,13 @@ const chosenMultiSelectField = ({input, label, type, options, meta: {touched, er
   )
 };
 
-const checkBoxField = ({input, label, type, meta: {touched, error}}) => {
+const checkBoxField = ({input, checked, label, type, meta: {touched, error}}) => {
   return (
     <div>
       <FieldCheckbox
         label={label}
         name={input.name}
-        checked={input.value}
+        checked={input.value || checked}
         onChange={input.onChange}
       />
       {
@@ -190,7 +189,7 @@ const checkBoxField = ({input, label, type, meta: {touched, error}}) => {
   )
 };
 
-const datePickerField = ({input, startDate, dateFormat, inputProps, meta: { touched, error }})=>{
+const datePickerField = ({input, startDate, dateFormat, inputProps, meta: {touched, error}}) => {
   const classes = useStyles();
   return (
     <div className={classes.formControl}>
@@ -203,7 +202,7 @@ const datePickerField = ({input, startDate, dateFormat, inputProps, meta: { touc
           />
         }
         selected={input.value ? input.value : startDate}
-        onChange={date=>input.onChange(date)}
+        onChange={date => input.onChange(date)}
         dateFormat={dateFormat}
       >
       </DatePicker>
@@ -212,67 +211,32 @@ const datePickerField = ({input, startDate, dateFormat, inputProps, meta: { touc
   )
 };
 
-const render = ({input, label, type, helperText, loading, disabled, defaultValue, options, onChangeHandler, dateFormat, startDate, inputProps, meta: {touched, error}, onMount, required}) => {
-  switch (type) {
+const render = (props) => {
+  switch (props.type) {
     case 'select':
-      return selectField({input, label, type, options, meta: {touched, error}, onMount, required});
+      return selectField(props);
     case 'chosenSelect':
-      return chosenSelectField({
-        input,
-        label,
-        type,
-        loading,
-        disabled,
-        defaultValue,
-        options,
-        meta: {touched, error},
-        onMount,
-        required
-      });
+      return chosenSelectField(props);
     case 'chosenMultiSelect':
-      return chosenMultiSelectField({input, label, type, options, meta: {touched, error}, onMount, required});
+      return chosenMultiSelectField(props);
     case 'textarea':
-      return textAreaField({input, label, type, meta: {touched, error}, required});
+      return textAreaField(props);
     case 'checkbox':
-      return checkBoxField({input, label, type, meta: {touched, error}, required});
+      return checkBoxField(props);
     case 'text':
     case 'password':
-      return textField({
-        input,
-        label,
-        type,
-        helperText,
-        disabled,
-        onChangeHandler,
-        meta: {touched, error},
-        required,
-        inputProps
-      });
+      return textField(props);
     case 'datePicker':
-      return datePickerField({input, dateFormat, startDate, inputProps,  meta: {touched, error}});
+      return datePickerField(props);
     default:
-      return simpleField({input, label, type, meta: {touched, error}, required});
+      return simpleField(props);
   }
 };
 
-const renderField = ({input, label, type, helperText, onMount, required, disabled, defaultValue, options,  dateFormat, startDate, inputProps, meta: {touched, error}}) => (
+const renderField = (props) => (
   <div className="form-item">
     {
-      render({
-        input,
-        label,
-        type,
-        helperText,
-        onMount,
-        disabled,
-        defaultValue,
-        options,
-        meta: {touched, error},
-        required: !!required,
-        dateFormat,
-        startDate,
-        inputProps
-      })
+      render(props)
     }
   </div>
 );

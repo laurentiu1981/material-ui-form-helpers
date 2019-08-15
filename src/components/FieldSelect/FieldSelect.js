@@ -1,13 +1,15 @@
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
 import clsx from "clsx";
 import Select from "react-select";
-import {emphasize, makeStyles, useTheme} from "@material-ui/core/styles";
-import {Typography, TextField, Paper, Chip} from "@material-ui/core";
+import { emphasize, useTheme } from "@material-ui/core/styles";
+import { makeStyles } from "@material-ui/styles";
+import { Typography, TextField, Paper, Chip } from "@material-ui/core";
 import MenuItem from "@material-ui/core/MenuItem";
-import {CancelIcon} from "@material-ui/icons";
+import { CancelIcon } from "@material-ui/icons";
 import PropTypes from "prop-types";
 import InputAdornment from "@material-ui/core/InputAdornment/InputAdornment";
 import AccountCircle from "@material-ui/core/SvgIcon/SvgIcon";
+import _ from 'lodash';
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -92,7 +94,7 @@ function Control(props) {
     children,
     innerProps,
     innerRef,
-    selectProps: { classes, TextFieldProps }
+    selectProps: {classes, TextFieldProps}
   } = props;
 
   return (
@@ -313,7 +315,7 @@ export default function IntegrationReactSelect(props) {
       InputProps={{
         startAdornment: (
           <InputAdornment position="start">
-            <AccountCircle />
+            <AccountCircle/>
           </InputAdornment>
         ),
       }}

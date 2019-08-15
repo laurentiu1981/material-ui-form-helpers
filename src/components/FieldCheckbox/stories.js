@@ -1,15 +1,30 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 import FieldCheckbox from "./FieldCheckbox";
+import { Field } from "redux-form";
+import { renderField } from "../../renderField";
+import withReduxForm from "redux-form-storybook";
+
 
 storiesOf('FieldCheckbox', module)
+  .addDecorator(withReduxForm)
   .add('checked', () => {
     return (
-      <FieldCheckbox label="Checkbox" checked={true}/>
+      <Field
+        component={renderField}
+        type="checkbox"
+        label="Checkbox"
+        checked={true}
+      />
     )
   })
   .add('unchecked', () => {
     return (
-      <FieldCheckbox label="Checkbox" checked={false}/>
+      <Field
+        component={renderField}
+        type="checkbox"
+        label="Checkbox"
+        checked={false}
+      />
     )
   });
