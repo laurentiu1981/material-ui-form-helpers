@@ -1,7 +1,7 @@
 import React from 'react';
 import FieldSelect from './FieldSelect';
 import {TextField, Typography} from "@material-ui/core";
-import FieldCheckbox from "./FieldCheckbox";
+import {FieldCheckbox} from "./components";
 import {makeStyles} from "@material-ui/styles";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
