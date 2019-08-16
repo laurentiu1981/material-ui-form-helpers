@@ -36,7 +36,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist/'),
     publicPath: '',
-    filename: 'matuihelpers.js',
+    filename: 'index.js',
     libraryTarget: 'umd',
   },
 };

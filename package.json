@@ -1,11 +1,12 @@
 {
   "name": "material-ui-form-helpers",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "Render helpers for material ui inputs",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack  --mode=production",
+    "build:dev": "webpack --mode=development",
     "storybook": "start-storybook -p 9001"
   },
   "repository": {
