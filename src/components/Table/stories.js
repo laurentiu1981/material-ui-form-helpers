@@ -10,7 +10,7 @@ let n = 0;
 while (n++ < 100) {
   item = {
     name: `Name${n}`,
-    number: Math.random() * 10,
+    number: n,
     username: `username${n}`,
   };
   itemsObject[n] = item;

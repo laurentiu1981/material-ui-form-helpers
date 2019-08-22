@@ -783,7 +783,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          6.692568605768043
+          1
         </td>
         <td
           aria-sort={null}
@@ -805,7 +805,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          5.301031411370349
+          2
         </td>
         <td
           aria-sort={null}
@@ -827,7 +827,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          7.660874301330935
+          3
         </td>
         <td
           aria-sort={null}
@@ -849,7 +849,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          5.983202606182465
+          4
         </td>
         <td
           aria-sort={null}
@@ -871,7 +871,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          5.067105379032581
+          5
         </td>
         <td
           aria-sort={null}
@@ -893,7 +893,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          4.120312362355774
+          6
         </td>
         <td
           aria-sort={null}
@@ -915,7 +915,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          5.40433255434182
+          7
         </td>
         <td
           aria-sort={null}
@@ -937,7 +937,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          1.8296922280171724
+          8
         </td>
         <td
           aria-sort={null}
@@ -959,7 +959,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          4.836321217302655
+          9
         </td>
         <td
           aria-sort={null}
@@ -981,7 +981,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          0.28731076936182376
+          10
         </td>
         <td
           aria-sort={null}
@@ -1003,7 +1003,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          1.932499879058318
+          11
         </td>
         <td
           aria-sort={null}
@@ -1025,7 +1025,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          2.5097966838676466
+          12
         </td>
         <td
           aria-sort={null}
@@ -1047,7 +1047,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          7.348309523731007
+          13
         </td>
         <td
           aria-sort={null}
@@ -1069,7 +1069,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          9.605678908446944
+          14
         </td>
         <td
           aria-sort={null}
@@ -1091,7 +1091,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          5.529656048280655
+          15
         </td>
         <td
           aria-sort={null}
@@ -1113,7 +1113,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          7.914275756251157
+          16
         </td>
         <td
           aria-sort={null}
@@ -1135,7 +1135,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          4.098488468138828
+          17
         </td>
         <td
           aria-sort={null}
@@ -1157,7 +1157,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          8.322236672683676
+          18
         </td>
         <td
           aria-sort={null}
@@ -1179,7 +1179,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          1.7549059038119363
+          19
         </td>
         <td
           aria-sort={null}
@@ -1201,7 +1201,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          6.354769131747828
+          20
         </td>
         <td
           aria-sort={null}
@@ -1223,7 +1223,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          1.0210616539897543
+          21
         </td>
         <td
           aria-sort={null}
@@ -1245,7 +1245,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          5.24060853141558
+          22
         </td>
         <td
           aria-sort={null}
@@ -1267,7 +1267,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          9.442855691985692
+          23
         </td>
         <td
           aria-sort={null}
@@ -1289,7 +1289,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          1.4405192698448843
+          24
         </td>
         <td
           aria-sort={null}
@@ -1311,7 +1311,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          8.413261897214174
+          25
         </td>
         <td
           aria-sort={null}
@@ -1333,7 +1333,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          1.583501665623055
+          26
         </td>
         <td
           aria-sort={null}
@@ -1355,7 +1355,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          1.7209351295663988
+          27
         </td>
         <td
           aria-sort={null}
@@ -1377,7 +1377,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          5.745186554771038
+          28
         </td>
         <td
           aria-sort={null}
@@ -1399,7 +1399,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          1.2233766659456435
+          29
         </td>
         <td
           aria-sort={null}
@@ -1421,7 +1421,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          0.7995348611088571
+          30
         </td>
         <td
           aria-sort={null}
@@ -1443,7 +1443,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          9.316328716772922
+          31
         </td>
         <td
           aria-sort={null}
@@ -1465,7 +1465,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          4.46548179945629
+          32
         </td>
         <td
           aria-sort={null}
@@ -1487,7 +1487,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          2.7756956419250423
+          33
         </td>
         <td
           aria-sort={null}
@@ -1509,7 +1509,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          2.3671697408804304
+          34
         </td>
         <td
           aria-sort={null}
@@ -1531,7 +1531,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          7.16446057995995
+          35
         </td>
         <td
           aria-sort={null}
@@ -1553,7 +1553,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          3.9808368991929854
+          36
         </td>
         <td
           aria-sort={null}
@@ -1575,7 +1575,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          7.022273534881595
+          37
         </td>
         <td
           aria-sort={null}
@@ -1597,7 +1597,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          0.32436695563355267
+          38
         </td>
         <td
           aria-sort={null}
@@ -1619,7 +1619,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          3.1151449080784355
+          39
         </td>
         <td
           aria-sort={null}
@@ -1641,7 +1641,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          8.314641084437639
+          40
         </td>
         <td
           aria-sort={null}
@@ -1663,7 +1663,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          3.19654562714486
+          41
         </td>
         <td
           aria-sort={null}
@@ -1685,7 +1685,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          5.654137205926801
+          42
         </td>
         <td
           aria-sort={null}
@@ -1707,7 +1707,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          4.591635349290777
+          43
         </td>
         <td
           aria-sort={null}
@@ -1729,7 +1729,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          2.8718893700331205
+          44
         </td>
         <td
           aria-sort={null}
@@ -1751,7 +1751,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          5.628939176717278
+          45
         </td>
         <td
           aria-sort={null}
@@ -1773,7 +1773,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          8.997273397238445
+          46
         </td>
         <td
           aria-sort={null}
@@ -1795,7 +1795,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          5.019560536307955
+          47
         </td>
         <td
           aria-sort={null}
@@ -1817,7 +1817,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          2.733257240416327
+          48
         </td>
         <td
           aria-sort={null}
@@ -1839,7 +1839,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          9.25834399432453
+          49
         </td>
         <td
           aria-sort={null}
@@ -1861,7 +1861,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          2.8604598270654735
+          50
         </td>
         <td
           aria-sort={null}
@@ -1883,7 +1883,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          6.3036409009022325
+          51
         </td>
         <td
           aria-sort={null}
@@ -1905,7 +1905,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          7.126893264057015
+          52
         </td>
         <td
           aria-sort={null}
@@ -1927,7 +1927,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          3.8285937134363524
+          53
         </td>
         <td
           aria-sort={null}
@@ -1949,7 +1949,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          9.436414538472143
+          54
         </td>
         <td
           aria-sort={null}
@@ -1971,7 +1971,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          0.9854919420386477
+          55
         </td>
         <td
           aria-sort={null}
@@ -1993,7 +1993,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          9.301064327325843
+          56
         </td>
         <td
           aria-sort={null}
@@ -2015,7 +2015,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          8.43615888893908
+          57
         </td>
         <td
           aria-sort={null}
@@ -2037,7 +2037,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          5.387966797574664
+          58
         </td>
         <td
           aria-sort={null}
@@ -2059,7 +2059,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          7.013318547283074
+          59
         </td>
         <td
           aria-sort={null}
@@ -2081,7 +2081,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          1.1143480905247305
+          60
         </td>
         <td
           aria-sort={null}
@@ -2103,7 +2103,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          7.766282954091408
+          61
         </td>
         <td
           aria-sort={null}
@@ -2125,7 +2125,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          1.0387403463653322
+          62
         </td>
         <td
           aria-sort={null}
@@ -2147,7 +2147,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          5.987086607076457
+          63
         </td>
         <td
           aria-sort={null}
@@ -2169,7 +2169,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          6.909802055940444
+          64
         </td>
         <td
           aria-sort={null}
@@ -2191,7 +2191,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          4.308859610535476
+          65
         </td>
         <td
           aria-sort={null}
@@ -2213,7 +2213,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          7.9078627867914975
+          66
         </td>
         <td
           aria-sort={null}
@@ -2235,7 +2235,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          7.123858145817394
+          67
         </td>
         <td
           aria-sort={null}
@@ -2257,7 +2257,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          0.2888853808284897
+          68
         </td>
         <td
           aria-sort={null}
@@ -2279,7 +2279,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          9.493141603327626
+          69
         </td>
         <td
           aria-sort={null}
@@ -2301,7 +2301,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          2.4982640547016377
+          70
         </td>
         <td
           aria-sort={null}
@@ -2323,7 +2323,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          9.047480649736546
+          71
         </td>
         <td
           aria-sort={null}
@@ -2345,7 +2345,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          9.653239021976974
+          72
         </td>
         <td
           aria-sort={null}
@@ -2367,7 +2367,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          0.25997752494688164
+          73
         </td>
         <td
           aria-sort={null}
@@ -2389,7 +2389,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          5.3039031561722645
+          74
         </td>
         <td
           aria-sort={null}
@@ -2411,7 +2411,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          8.460556059165413
+          75
         </td>
         <td
           aria-sort={null}
@@ -2433,7 +2433,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          6.327690391247893
+          76
         </td>
         <td
           aria-sort={null}
@@ -2455,7 +2455,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          7.21249469786078
+          77
         </td>
         <td
           aria-sort={null}
@@ -2477,7 +2477,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          7.726134600721986
+          78
         </td>
         <td
           aria-sort={null}
@@ -2499,7 +2499,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          8.104740078692267
+          79
         </td>
         <td
           aria-sort={null}
@@ -2521,7 +2521,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          8.50216873242891
+          80
         </td>
         <td
           aria-sort={null}
@@ -2543,7 +2543,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          8.781162764683462
+          81
         </td>
         <td
           aria-sort={null}
@@ -2565,7 +2565,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          5.591368044150185
+          82
         </td>
         <td
           aria-sort={null}
@@ -2587,7 +2587,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          4.19720685289046
+          83
         </td>
         <td
           aria-sort={null}
@@ -2609,7 +2609,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          1.6686622345257862
+          84
         </td>
         <td
           aria-sort={null}
@@ -2631,7 +2631,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          6.593572384768221
+          85
         </td>
         <td
           aria-sort={null}
@@ -2653,7 +2653,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          3.5192362248440667
+          86
         </td>
         <td
           aria-sort={null}
@@ -2675,7 +2675,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          1.7386119915083587
+          87
         </td>
         <td
           aria-sort={null}
@@ -2697,7 +2697,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          2.7640177792681286
+          88
         </td>
         <td
           aria-sort={null}
@@ -2719,7 +2719,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          7.496105231816765
+          89
         </td>
         <td
           aria-sort={null}
@@ -2741,7 +2741,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          4.803370230535322
+          90
         </td>
         <td
           aria-sort={null}
@@ -2763,7 +2763,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          2.6875787372201954
+          91
         </td>
         <td
           aria-sort={null}
@@ -2785,7 +2785,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          7.839469887850563
+          92
         </td>
         <td
           aria-sort={null}
@@ -2807,7 +2807,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          9.630470358020865
+          93
         </td>
         <td
           aria-sort={null}
@@ -2829,7 +2829,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          2.7366066426704028
+          94
         </td>
         <td
           aria-sort={null}
@@ -2851,7 +2851,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          7.3968840858459135
+          95
         </td>
         <td
           aria-sort={null}
@@ -2873,7 +2873,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          6.0474370419237715
+          96
         </td>
         <td
           aria-sort={null}
@@ -2895,7 +2895,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          2.858418681607513
+          97
         </td>
         <td
           aria-sort={null}
@@ -2917,7 +2917,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          0.7665420821023061
+          98
         </td>
         <td
           aria-sort={null}
@@ -2939,7 +2939,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          1.8656773383951664
+          99
         </td>
         <td
           aria-sort={null}
@@ -2961,7 +2961,7 @@ exports[`Storyshots Table 3 col section Label 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-1080"
         >
-          5.465597444282684
+          100
         </td>
         <td
           aria-sort={null}
@@ -3092,7 +3092,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          6.692568605768043
+          1
         </td>
         <td
           aria-sort={null}
@@ -3114,7 +3114,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          5.301031411370349
+          2
         </td>
         <td
           aria-sort={null}
@@ -3136,7 +3136,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          7.660874301330935
+          3
         </td>
         <td
           aria-sort={null}
@@ -3158,7 +3158,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          5.983202606182465
+          4
         </td>
         <td
           aria-sort={null}
@@ -3180,7 +3180,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          5.067105379032581
+          5
         </td>
         <td
           aria-sort={null}
@@ -3202,7 +3202,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          4.120312362355774
+          6
         </td>
         <td
           aria-sort={null}
@@ -3224,7 +3224,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          5.40433255434182
+          7
         </td>
         <td
           aria-sort={null}
@@ -3246,7 +3246,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          1.8296922280171724
+          8
         </td>
         <td
           aria-sort={null}
@@ -3268,7 +3268,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          4.836321217302655
+          9
         </td>
         <td
           aria-sort={null}
@@ -3290,7 +3290,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          0.28731076936182376
+          10
         </td>
         <td
           aria-sort={null}
@@ -3312,7 +3312,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          1.932499879058318
+          11
         </td>
         <td
           aria-sort={null}
@@ -3334,7 +3334,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          2.5097966838676466
+          12
         </td>
         <td
           aria-sort={null}
@@ -3356,7 +3356,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          7.348309523731007
+          13
         </td>
         <td
           aria-sort={null}
@@ -3378,7 +3378,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          9.605678908446944
+          14
         </td>
         <td
           aria-sort={null}
@@ -3400,7 +3400,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          5.529656048280655
+          15
         </td>
         <td
           aria-sort={null}
@@ -3422,7 +3422,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          7.914275756251157
+          16
         </td>
         <td
           aria-sort={null}
@@ -3444,7 +3444,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          4.098488468138828
+          17
         </td>
         <td
           aria-sort={null}
@@ -3466,7 +3466,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          8.322236672683676
+          18
         </td>
         <td
           aria-sort={null}
@@ -3488,7 +3488,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          1.7549059038119363
+          19
         </td>
         <td
           aria-sort={null}
@@ -3510,7 +3510,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          6.354769131747828
+          20
         </td>
         <td
           aria-sort={null}
@@ -3532,7 +3532,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          1.0210616539897543
+          21
         </td>
         <td
           aria-sort={null}
@@ -3554,7 +3554,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          5.24060853141558
+          22
         </td>
         <td
           aria-sort={null}
@@ -3576,7 +3576,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          9.442855691985692
+          23
         </td>
         <td
           aria-sort={null}
@@ -3598,7 +3598,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          1.4405192698448843
+          24
         </td>
         <td
           aria-sort={null}
@@ -3620,7 +3620,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          8.413261897214174
+          25
         </td>
         <td
           aria-sort={null}
@@ -3642,7 +3642,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          1.583501665623055
+          26
         </td>
         <td
           aria-sort={null}
@@ -3664,7 +3664,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          1.7209351295663988
+          27
         </td>
         <td
           aria-sort={null}
@@ -3686,7 +3686,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          5.745186554771038
+          28
         </td>
         <td
           aria-sort={null}
@@ -3708,7 +3708,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          1.2233766659456435
+          29
         </td>
         <td
           aria-sort={null}
@@ -3730,7 +3730,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          0.7995348611088571
+          30
         </td>
         <td
           aria-sort={null}
@@ -3752,7 +3752,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          9.316328716772922
+          31
         </td>
         <td
           aria-sort={null}
@@ -3774,7 +3774,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          4.46548179945629
+          32
         </td>
         <td
           aria-sort={null}
@@ -3796,7 +3796,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          2.7756956419250423
+          33
         </td>
         <td
           aria-sort={null}
@@ -3818,7 +3818,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          2.3671697408804304
+          34
         </td>
         <td
           aria-sort={null}
@@ -3840,7 +3840,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          7.16446057995995
+          35
         </td>
         <td
           aria-sort={null}
@@ -3862,7 +3862,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          3.9808368991929854
+          36
         </td>
         <td
           aria-sort={null}
@@ -3884,7 +3884,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          7.022273534881595
+          37
         </td>
         <td
           aria-sort={null}
@@ -3906,7 +3906,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          0.32436695563355267
+          38
         </td>
         <td
           aria-sort={null}
@@ -3928,7 +3928,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          3.1151449080784355
+          39
         </td>
         <td
           aria-sort={null}
@@ -3950,7 +3950,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          8.314641084437639
+          40
         </td>
         <td
           aria-sort={null}
@@ -3972,7 +3972,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          3.19654562714486
+          41
         </td>
         <td
           aria-sort={null}
@@ -3994,7 +3994,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          5.654137205926801
+          42
         </td>
         <td
           aria-sort={null}
@@ -4016,7 +4016,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          4.591635349290777
+          43
         </td>
         <td
           aria-sort={null}
@@ -4038,7 +4038,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          2.8718893700331205
+          44
         </td>
         <td
           aria-sort={null}
@@ -4060,7 +4060,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          5.628939176717278
+          45
         </td>
         <td
           aria-sort={null}
@@ -4082,7 +4082,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          8.997273397238445
+          46
         </td>
         <td
           aria-sort={null}
@@ -4104,7 +4104,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          5.019560536307955
+          47
         </td>
         <td
           aria-sort={null}
@@ -4126,7 +4126,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          2.733257240416327
+          48
         </td>
         <td
           aria-sort={null}
@@ -4148,7 +4148,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          9.25834399432453
+          49
         </td>
         <td
           aria-sort={null}
@@ -4170,7 +4170,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          2.8604598270654735
+          50
         </td>
         <td
           aria-sort={null}
@@ -4192,7 +4192,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          6.3036409009022325
+          51
         </td>
         <td
           aria-sort={null}
@@ -4214,7 +4214,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          7.126893264057015
+          52
         </td>
         <td
           aria-sort={null}
@@ -4236,7 +4236,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          3.8285937134363524
+          53
         </td>
         <td
           aria-sort={null}
@@ -4258,7 +4258,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          9.436414538472143
+          54
         </td>
         <td
           aria-sort={null}
@@ -4280,7 +4280,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          0.9854919420386477
+          55
         </td>
         <td
           aria-sort={null}
@@ -4302,7 +4302,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          9.301064327325843
+          56
         </td>
         <td
           aria-sort={null}
@@ -4324,7 +4324,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          8.43615888893908
+          57
         </td>
         <td
           aria-sort={null}
@@ -4346,7 +4346,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          5.387966797574664
+          58
         </td>
         <td
           aria-sort={null}
@@ -4368,7 +4368,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          7.013318547283074
+          59
         </td>
         <td
           aria-sort={null}
@@ -4390,7 +4390,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          1.1143480905247305
+          60
         </td>
         <td
           aria-sort={null}
@@ -4412,7 +4412,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          7.766282954091408
+          61
         </td>
         <td
           aria-sort={null}
@@ -4434,7 +4434,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          1.0387403463653322
+          62
         </td>
         <td
           aria-sort={null}
@@ -4456,7 +4456,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          5.987086607076457
+          63
         </td>
         <td
           aria-sort={null}
@@ -4478,7 +4478,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          6.909802055940444
+          64
         </td>
         <td
           aria-sort={null}
@@ -4500,7 +4500,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          4.308859610535476
+          65
         </td>
         <td
           aria-sort={null}
@@ -4522,7 +4522,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          7.9078627867914975
+          66
         </td>
         <td
           aria-sort={null}
@@ -4544,7 +4544,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          7.123858145817394
+          67
         </td>
         <td
           aria-sort={null}
@@ -4566,7 +4566,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          0.2888853808284897
+          68
         </td>
         <td
           aria-sort={null}
@@ -4588,7 +4588,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          9.493141603327626
+          69
         </td>
         <td
           aria-sort={null}
@@ -4610,7 +4610,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          2.4982640547016377
+          70
         </td>
         <td
           aria-sort={null}
@@ -4632,7 +4632,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          9.047480649736546
+          71
         </td>
         <td
           aria-sort={null}
@@ -4654,7 +4654,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          9.653239021976974
+          72
         </td>
         <td
           aria-sort={null}
@@ -4676,7 +4676,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          0.25997752494688164
+          73
         </td>
         <td
           aria-sort={null}
@@ -4698,7 +4698,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          5.3039031561722645
+          74
         </td>
         <td
           aria-sort={null}
@@ -4720,7 +4720,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          8.460556059165413
+          75
         </td>
         <td
           aria-sort={null}
@@ -4742,7 +4742,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          6.327690391247893
+          76
         </td>
         <td
           aria-sort={null}
@@ -4764,7 +4764,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          7.21249469786078
+          77
         </td>
         <td
           aria-sort={null}
@@ -4786,7 +4786,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          7.726134600721986
+          78
         </td>
         <td
           aria-sort={null}
@@ -4808,7 +4808,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          8.104740078692267
+          79
         </td>
         <td
           aria-sort={null}
@@ -4830,7 +4830,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          8.50216873242891
+          80
         </td>
         <td
           aria-sort={null}
@@ -4852,7 +4852,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          8.781162764683462
+          81
         </td>
         <td
           aria-sort={null}
@@ -4874,7 +4874,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          5.591368044150185
+          82
         </td>
         <td
           aria-sort={null}
@@ -4896,7 +4896,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          4.19720685289046
+          83
         </td>
         <td
           aria-sort={null}
@@ -4918,7 +4918,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          1.6686622345257862
+          84
         </td>
         <td
           aria-sort={null}
@@ -4940,7 +4940,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          6.593572384768221
+          85
         </td>
         <td
           aria-sort={null}
@@ -4962,7 +4962,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          3.5192362248440667
+          86
         </td>
         <td
           aria-sort={null}
@@ -4984,7 +4984,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          1.7386119915083587
+          87
         </td>
         <td
           aria-sort={null}
@@ -5006,7 +5006,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          2.7640177792681286
+          88
         </td>
         <td
           aria-sort={null}
@@ -5028,7 +5028,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          7.496105231816765
+          89
         </td>
         <td
           aria-sort={null}
@@ -5050,7 +5050,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          4.803370230535322
+          90
         </td>
         <td
           aria-sort={null}
@@ -5072,7 +5072,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          2.6875787372201954
+          91
         </td>
         <td
           aria-sort={null}
@@ -5094,7 +5094,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          7.839469887850563
+          92
         </td>
         <td
           aria-sort={null}
@@ -5116,7 +5116,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          9.630470358020865
+          93
         </td>
         <td
           aria-sort={null}
@@ -5138,7 +5138,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          2.7366066426704028
+          94
         </td>
         <td
           aria-sort={null}
@@ -5160,7 +5160,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          7.3968840858459135
+          95
         </td>
         <td
           aria-sort={null}
@@ -5182,7 +5182,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          6.0474370419237715
+          96
         </td>
         <td
           aria-sort={null}
@@ -5204,7 +5204,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          2.858418681607513
+          97
         </td>
         <td
           aria-sort={null}
@@ -5226,7 +5226,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          0.7665420821023061
+          98
         </td>
         <td
           aria-sort={null}
@@ -5248,7 +5248,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          1.8656773383951664
+          99
         </td>
         <td
           aria-sort={null}
@@ -5270,7 +5270,7 @@ exports[`Storyshots Table array, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-586"
         >
-          5.465597444282684
+          100
         </td>
         <td
           aria-sort={null}
@@ -5331,7 +5331,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          6.692568605768043
+          1
         </td>
       </tr>
       <tr
@@ -5347,7 +5347,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          5.301031411370349
+          2
         </td>
       </tr>
       <tr
@@ -5363,7 +5363,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          7.660874301330935
+          3
         </td>
       </tr>
       <tr
@@ -5379,7 +5379,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          5.983202606182465
+          4
         </td>
       </tr>
       <tr
@@ -5395,7 +5395,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          5.067105379032581
+          5
         </td>
       </tr>
       <tr
@@ -5411,7 +5411,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          4.120312362355774
+          6
         </td>
       </tr>
       <tr
@@ -5427,7 +5427,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          5.40433255434182
+          7
         </td>
       </tr>
       <tr
@@ -5443,7 +5443,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          1.8296922280171724
+          8
         </td>
       </tr>
       <tr
@@ -5459,7 +5459,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          4.836321217302655
+          9
         </td>
       </tr>
       <tr
@@ -5475,7 +5475,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          0.28731076936182376
+          10
         </td>
       </tr>
       <tr
@@ -5491,7 +5491,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          1.932499879058318
+          11
         </td>
       </tr>
       <tr
@@ -5507,7 +5507,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          2.5097966838676466
+          12
         </td>
       </tr>
       <tr
@@ -5523,7 +5523,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          7.348309523731007
+          13
         </td>
       </tr>
       <tr
@@ -5539,7 +5539,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          9.605678908446944
+          14
         </td>
       </tr>
       <tr
@@ -5555,7 +5555,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          5.529656048280655
+          15
         </td>
       </tr>
       <tr
@@ -5571,7 +5571,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          7.914275756251157
+          16
         </td>
       </tr>
       <tr
@@ -5587,7 +5587,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          4.098488468138828
+          17
         </td>
       </tr>
       <tr
@@ -5603,7 +5603,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          8.322236672683676
+          18
         </td>
       </tr>
       <tr
@@ -5619,7 +5619,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          1.7549059038119363
+          19
         </td>
       </tr>
       <tr
@@ -5635,7 +5635,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          6.354769131747828
+          20
         </td>
       </tr>
       <tr
@@ -5651,7 +5651,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          1.0210616539897543
+          21
         </td>
       </tr>
       <tr
@@ -5667,7 +5667,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          5.24060853141558
+          22
         </td>
       </tr>
       <tr
@@ -5683,7 +5683,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          9.442855691985692
+          23
         </td>
       </tr>
       <tr
@@ -5699,7 +5699,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          1.4405192698448843
+          24
         </td>
       </tr>
       <tr
@@ -5715,7 +5715,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          8.413261897214174
+          25
         </td>
       </tr>
       <tr
@@ -5731,7 +5731,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          1.583501665623055
+          26
         </td>
       </tr>
       <tr
@@ -5747,7 +5747,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          1.7209351295663988
+          27
         </td>
       </tr>
       <tr
@@ -5763,7 +5763,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          5.745186554771038
+          28
         </td>
       </tr>
       <tr
@@ -5779,7 +5779,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          1.2233766659456435
+          29
         </td>
       </tr>
       <tr
@@ -5795,7 +5795,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          0.7995348611088571
+          30
         </td>
       </tr>
       <tr
@@ -5811,7 +5811,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          9.316328716772922
+          31
         </td>
       </tr>
       <tr
@@ -5827,7 +5827,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          4.46548179945629
+          32
         </td>
       </tr>
       <tr
@@ -5843,7 +5843,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          2.7756956419250423
+          33
         </td>
       </tr>
       <tr
@@ -5859,7 +5859,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          2.3671697408804304
+          34
         </td>
       </tr>
       <tr
@@ -5875,7 +5875,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          7.16446057995995
+          35
         </td>
       </tr>
       <tr
@@ -5891,7 +5891,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          3.9808368991929854
+          36
         </td>
       </tr>
       <tr
@@ -5907,7 +5907,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          7.022273534881595
+          37
         </td>
       </tr>
       <tr
@@ -5923,7 +5923,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          0.32436695563355267
+          38
         </td>
       </tr>
       <tr
@@ -5939,7 +5939,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          3.1151449080784355
+          39
         </td>
       </tr>
       <tr
@@ -5955,7 +5955,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          8.314641084437639
+          40
         </td>
       </tr>
       <tr
@@ -5971,7 +5971,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          3.19654562714486
+          41
         </td>
       </tr>
       <tr
@@ -5987,7 +5987,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          5.654137205926801
+          42
         </td>
       </tr>
       <tr
@@ -6003,7 +6003,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          4.591635349290777
+          43
         </td>
       </tr>
       <tr
@@ -6019,7 +6019,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          2.8718893700331205
+          44
         </td>
       </tr>
       <tr
@@ -6035,7 +6035,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          5.628939176717278
+          45
         </td>
       </tr>
       <tr
@@ -6051,7 +6051,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          8.997273397238445
+          46
         </td>
       </tr>
       <tr
@@ -6067,7 +6067,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          5.019560536307955
+          47
         </td>
       </tr>
       <tr
@@ -6083,7 +6083,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          2.733257240416327
+          48
         </td>
       </tr>
       <tr
@@ -6099,7 +6099,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          9.25834399432453
+          49
         </td>
       </tr>
       <tr
@@ -6115,7 +6115,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          2.8604598270654735
+          50
         </td>
       </tr>
       <tr
@@ -6131,7 +6131,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          6.3036409009022325
+          51
         </td>
       </tr>
       <tr
@@ -6147,7 +6147,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          7.126893264057015
+          52
         </td>
       </tr>
       <tr
@@ -6163,7 +6163,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          3.8285937134363524
+          53
         </td>
       </tr>
       <tr
@@ -6179,7 +6179,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          9.436414538472143
+          54
         </td>
       </tr>
       <tr
@@ -6195,7 +6195,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          0.9854919420386477
+          55
         </td>
       </tr>
       <tr
@@ -6211,7 +6211,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          9.301064327325843
+          56
         </td>
       </tr>
       <tr
@@ -6227,7 +6227,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          8.43615888893908
+          57
         </td>
       </tr>
       <tr
@@ -6243,7 +6243,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          5.387966797574664
+          58
         </td>
       </tr>
       <tr
@@ -6259,7 +6259,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          7.013318547283074
+          59
         </td>
       </tr>
       <tr
@@ -6275,7 +6275,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          1.1143480905247305
+          60
         </td>
       </tr>
       <tr
@@ -6291,7 +6291,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          7.766282954091408
+          61
         </td>
       </tr>
       <tr
@@ -6307,7 +6307,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          1.0387403463653322
+          62
         </td>
       </tr>
       <tr
@@ -6323,7 +6323,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          5.987086607076457
+          63
         </td>
       </tr>
       <tr
@@ -6339,7 +6339,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          6.909802055940444
+          64
         </td>
       </tr>
       <tr
@@ -6355,7 +6355,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          4.308859610535476
+          65
         </td>
       </tr>
       <tr
@@ -6371,7 +6371,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          7.9078627867914975
+          66
         </td>
       </tr>
       <tr
@@ -6387,7 +6387,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          7.123858145817394
+          67
         </td>
       </tr>
       <tr
@@ -6403,7 +6403,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          0.2888853808284897
+          68
         </td>
       </tr>
       <tr
@@ -6419,7 +6419,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          9.493141603327626
+          69
         </td>
       </tr>
       <tr
@@ -6435,7 +6435,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          2.4982640547016377
+          70
         </td>
       </tr>
       <tr
@@ -6451,7 +6451,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          9.047480649736546
+          71
         </td>
       </tr>
       <tr
@@ -6467,7 +6467,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          9.653239021976974
+          72
         </td>
       </tr>
       <tr
@@ -6483,7 +6483,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          0.25997752494688164
+          73
         </td>
       </tr>
       <tr
@@ -6499,7 +6499,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          5.3039031561722645
+          74
         </td>
       </tr>
       <tr
@@ -6515,7 +6515,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          8.460556059165413
+          75
         </td>
       </tr>
       <tr
@@ -6531,7 +6531,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          6.327690391247893
+          76
         </td>
       </tr>
       <tr
@@ -6547,7 +6547,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          7.21249469786078
+          77
         </td>
       </tr>
       <tr
@@ -6563,7 +6563,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          7.726134600721986
+          78
         </td>
       </tr>
       <tr
@@ -6579,7 +6579,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          8.104740078692267
+          79
         </td>
       </tr>
       <tr
@@ -6595,7 +6595,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          8.50216873242891
+          80
         </td>
       </tr>
       <tr
@@ -6611,7 +6611,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          8.781162764683462
+          81
         </td>
       </tr>
       <tr
@@ -6627,7 +6627,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          5.591368044150185
+          82
         </td>
       </tr>
       <tr
@@ -6643,7 +6643,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          4.19720685289046
+          83
         </td>
       </tr>
       <tr
@@ -6659,7 +6659,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          1.6686622345257862
+          84
         </td>
       </tr>
       <tr
@@ -6675,7 +6675,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          6.593572384768221
+          85
         </td>
       </tr>
       <tr
@@ -6691,7 +6691,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          3.5192362248440667
+          86
         </td>
       </tr>
       <tr
@@ -6707,7 +6707,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          1.7386119915083587
+          87
         </td>
       </tr>
       <tr
@@ -6723,7 +6723,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          2.7640177792681286
+          88
         </td>
       </tr>
       <tr
@@ -6739,7 +6739,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          7.496105231816765
+          89
         </td>
       </tr>
       <tr
@@ -6755,7 +6755,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          4.803370230535322
+          90
         </td>
       </tr>
       <tr
@@ -6771,7 +6771,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          2.6875787372201954
+          91
         </td>
       </tr>
       <tr
@@ -6787,7 +6787,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          7.839469887850563
+          92
         </td>
       </tr>
       <tr
@@ -6803,7 +6803,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          9.630470358020865
+          93
         </td>
       </tr>
       <tr
@@ -6819,7 +6819,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          2.7366066426704028
+          94
         </td>
       </tr>
       <tr
@@ -6835,7 +6835,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          7.3968840858459135
+          95
         </td>
       </tr>
       <tr
@@ -6851,7 +6851,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          6.0474370419237715
+          96
         </td>
       </tr>
       <tr
@@ -6867,7 +6867,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          2.858418681607513
+          97
         </td>
       </tr>
       <tr
@@ -6883,7 +6883,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          0.7665420821023061
+          98
         </td>
       </tr>
       <tr
@@ -6899,7 +6899,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          1.8656773383951664
+          99
         </td>
       </tr>
       <tr
@@ -6915,7 +6915,7 @@ exports[`Storyshots Table array, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-636"
         >
-          5.465597444282684
+          100
         </td>
       </tr>
     </tbody>
@@ -6978,7 +6978,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          6.692568605768043
+          1
         </td>
         <td
           aria-sort={null}
@@ -7000,7 +7000,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          5.301031411370349
+          2
         </td>
         <td
           aria-sort={null}
@@ -7022,7 +7022,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          7.660874301330935
+          3
         </td>
         <td
           aria-sort={null}
@@ -7044,7 +7044,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          5.983202606182465
+          4
         </td>
         <td
           aria-sort={null}
@@ -7066,7 +7066,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          5.067105379032581
+          5
         </td>
         <td
           aria-sort={null}
@@ -7088,7 +7088,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          4.120312362355774
+          6
         </td>
         <td
           aria-sort={null}
@@ -7110,7 +7110,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          5.40433255434182
+          7
         </td>
         <td
           aria-sort={null}
@@ -7132,7 +7132,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          1.8296922280171724
+          8
         </td>
         <td
           aria-sort={null}
@@ -7154,7 +7154,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          4.836321217302655
+          9
         </td>
         <td
           aria-sort={null}
@@ -7176,7 +7176,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          0.28731076936182376
+          10
         </td>
         <td
           aria-sort={null}
@@ -7198,7 +7198,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          1.932499879058318
+          11
         </td>
         <td
           aria-sort={null}
@@ -7220,7 +7220,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          2.5097966838676466
+          12
         </td>
         <td
           aria-sort={null}
@@ -7242,7 +7242,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          7.348309523731007
+          13
         </td>
         <td
           aria-sort={null}
@@ -7264,7 +7264,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          9.605678908446944
+          14
         </td>
         <td
           aria-sort={null}
@@ -7286,7 +7286,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          5.529656048280655
+          15
         </td>
         <td
           aria-sort={null}
@@ -7308,7 +7308,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          7.914275756251157
+          16
         </td>
         <td
           aria-sort={null}
@@ -7330,7 +7330,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          4.098488468138828
+          17
         </td>
         <td
           aria-sort={null}
@@ -7352,7 +7352,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          8.322236672683676
+          18
         </td>
         <td
           aria-sort={null}
@@ -7374,7 +7374,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          1.7549059038119363
+          19
         </td>
         <td
           aria-sort={null}
@@ -7396,7 +7396,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          6.354769131747828
+          20
         </td>
         <td
           aria-sort={null}
@@ -7418,7 +7418,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          1.0210616539897543
+          21
         </td>
         <td
           aria-sort={null}
@@ -7440,7 +7440,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          5.24060853141558
+          22
         </td>
         <td
           aria-sort={null}
@@ -7462,7 +7462,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          9.442855691985692
+          23
         </td>
         <td
           aria-sort={null}
@@ -7484,7 +7484,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          1.4405192698448843
+          24
         </td>
         <td
           aria-sort={null}
@@ -7506,7 +7506,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          8.413261897214174
+          25
         </td>
         <td
           aria-sort={null}
@@ -7528,7 +7528,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          1.583501665623055
+          26
         </td>
         <td
           aria-sort={null}
@@ -7550,7 +7550,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          1.7209351295663988
+          27
         </td>
         <td
           aria-sort={null}
@@ -7572,7 +7572,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          5.745186554771038
+          28
         </td>
         <td
           aria-sort={null}
@@ -7594,7 +7594,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          1.2233766659456435
+          29
         </td>
         <td
           aria-sort={null}
@@ -7616,7 +7616,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          0.7995348611088571
+          30
         </td>
         <td
           aria-sort={null}
@@ -7638,7 +7638,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          9.316328716772922
+          31
         </td>
         <td
           aria-sort={null}
@@ -7660,7 +7660,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          4.46548179945629
+          32
         </td>
         <td
           aria-sort={null}
@@ -7682,7 +7682,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          2.7756956419250423
+          33
         </td>
         <td
           aria-sort={null}
@@ -7704,7 +7704,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          2.3671697408804304
+          34
         </td>
         <td
           aria-sort={null}
@@ -7726,7 +7726,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          7.16446057995995
+          35
         </td>
         <td
           aria-sort={null}
@@ -7748,7 +7748,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          3.9808368991929854
+          36
         </td>
         <td
           aria-sort={null}
@@ -7770,7 +7770,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          7.022273534881595
+          37
         </td>
         <td
           aria-sort={null}
@@ -7792,7 +7792,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          0.32436695563355267
+          38
         </td>
         <td
           aria-sort={null}
@@ -7814,7 +7814,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          3.1151449080784355
+          39
         </td>
         <td
           aria-sort={null}
@@ -7836,7 +7836,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          8.314641084437639
+          40
         </td>
         <td
           aria-sort={null}
@@ -7858,7 +7858,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          3.19654562714486
+          41
         </td>
         <td
           aria-sort={null}
@@ -7880,7 +7880,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          5.654137205926801
+          42
         </td>
         <td
           aria-sort={null}
@@ -7902,7 +7902,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          4.591635349290777
+          43
         </td>
         <td
           aria-sort={null}
@@ -7924,7 +7924,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          2.8718893700331205
+          44
         </td>
         <td
           aria-sort={null}
@@ -7946,7 +7946,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          5.628939176717278
+          45
         </td>
         <td
           aria-sort={null}
@@ -7968,7 +7968,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          8.997273397238445
+          46
         </td>
         <td
           aria-sort={null}
@@ -7990,7 +7990,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          5.019560536307955
+          47
         </td>
         <td
           aria-sort={null}
@@ -8012,7 +8012,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          2.733257240416327
+          48
         </td>
         <td
           aria-sort={null}
@@ -8034,7 +8034,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          9.25834399432453
+          49
         </td>
         <td
           aria-sort={null}
@@ -8056,7 +8056,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          2.8604598270654735
+          50
         </td>
         <td
           aria-sort={null}
@@ -8078,7 +8078,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          6.3036409009022325
+          51
         </td>
         <td
           aria-sort={null}
@@ -8100,7 +8100,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          7.126893264057015
+          52
         </td>
         <td
           aria-sort={null}
@@ -8122,7 +8122,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          3.8285937134363524
+          53
         </td>
         <td
           aria-sort={null}
@@ -8144,7 +8144,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          9.436414538472143
+          54
         </td>
         <td
           aria-sort={null}
@@ -8166,7 +8166,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          0.9854919420386477
+          55
         </td>
         <td
           aria-sort={null}
@@ -8188,7 +8188,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          9.301064327325843
+          56
         </td>
         <td
           aria-sort={null}
@@ -8210,7 +8210,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          8.43615888893908
+          57
         </td>
         <td
           aria-sort={null}
@@ -8232,7 +8232,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          5.387966797574664
+          58
         </td>
         <td
           aria-sort={null}
@@ -8254,7 +8254,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          7.013318547283074
+          59
         </td>
         <td
           aria-sort={null}
@@ -8276,7 +8276,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          1.1143480905247305
+          60
         </td>
         <td
           aria-sort={null}
@@ -8298,7 +8298,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          7.766282954091408
+          61
         </td>
         <td
           aria-sort={null}
@@ -8320,7 +8320,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          1.0387403463653322
+          62
         </td>
         <td
           aria-sort={null}
@@ -8342,7 +8342,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          5.987086607076457
+          63
         </td>
         <td
           aria-sort={null}
@@ -8364,7 +8364,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          6.909802055940444
+          64
         </td>
         <td
           aria-sort={null}
@@ -8386,7 +8386,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          4.308859610535476
+          65
         </td>
         <td
           aria-sort={null}
@@ -8408,7 +8408,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          7.9078627867914975
+          66
         </td>
         <td
           aria-sort={null}
@@ -8430,7 +8430,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          7.123858145817394
+          67
         </td>
         <td
           aria-sort={null}
@@ -8452,7 +8452,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          0.2888853808284897
+          68
         </td>
         <td
           aria-sort={null}
@@ -8474,7 +8474,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          9.493141603327626
+          69
         </td>
         <td
           aria-sort={null}
@@ -8496,7 +8496,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          2.4982640547016377
+          70
         </td>
         <td
           aria-sort={null}
@@ -8518,7 +8518,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          9.047480649736546
+          71
         </td>
         <td
           aria-sort={null}
@@ -8540,7 +8540,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          9.653239021976974
+          72
         </td>
         <td
           aria-sort={null}
@@ -8562,7 +8562,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          0.25997752494688164
+          73
         </td>
         <td
           aria-sort={null}
@@ -8584,7 +8584,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          5.3039031561722645
+          74
         </td>
         <td
           aria-sort={null}
@@ -8606,7 +8606,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          8.460556059165413
+          75
         </td>
         <td
           aria-sort={null}
@@ -8628,7 +8628,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          6.327690391247893
+          76
         </td>
         <td
           aria-sort={null}
@@ -8650,7 +8650,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          7.21249469786078
+          77
         </td>
         <td
           aria-sort={null}
@@ -8672,7 +8672,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          7.726134600721986
+          78
         </td>
         <td
           aria-sort={null}
@@ -8694,7 +8694,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          8.104740078692267
+          79
         </td>
         <td
           aria-sort={null}
@@ -8716,7 +8716,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          8.50216873242891
+          80
         </td>
         <td
           aria-sort={null}
@@ -8738,7 +8738,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          8.781162764683462
+          81
         </td>
         <td
           aria-sort={null}
@@ -8760,7 +8760,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          5.591368044150185
+          82
         </td>
         <td
           aria-sort={null}
@@ -8782,7 +8782,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          4.19720685289046
+          83
         </td>
         <td
           aria-sort={null}
@@ -8804,7 +8804,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          1.6686622345257862
+          84
         </td>
         <td
           aria-sort={null}
@@ -8826,7 +8826,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          6.593572384768221
+          85
         </td>
         <td
           aria-sort={null}
@@ -8848,7 +8848,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          3.5192362248440667
+          86
         </td>
         <td
           aria-sort={null}
@@ -8870,7 +8870,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          1.7386119915083587
+          87
         </td>
         <td
           aria-sort={null}
@@ -8892,7 +8892,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          2.7640177792681286
+          88
         </td>
         <td
           aria-sort={null}
@@ -8914,7 +8914,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          7.496105231816765
+          89
         </td>
         <td
           aria-sort={null}
@@ -8936,7 +8936,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          4.803370230535322
+          90
         </td>
         <td
           aria-sort={null}
@@ -8958,7 +8958,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          2.6875787372201954
+          91
         </td>
         <td
           aria-sort={null}
@@ -8980,7 +8980,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          7.839469887850563
+          92
         </td>
         <td
           aria-sort={null}
@@ -9002,7 +9002,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          9.630470358020865
+          93
         </td>
         <td
           aria-sort={null}
@@ -9024,7 +9024,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          2.7366066426704028
+          94
         </td>
         <td
           aria-sort={null}
@@ -9046,7 +9046,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          7.3968840858459135
+          95
         </td>
         <td
           aria-sort={null}
@@ -9068,7 +9068,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          6.0474370419237715
+          96
         </td>
         <td
           aria-sort={null}
@@ -9090,7 +9090,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          2.858418681607513
+          97
         </td>
         <td
           aria-sort={null}
@@ -9112,7 +9112,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          0.7665420821023061
+          98
         </td>
         <td
           aria-sort={null}
@@ -9134,7 +9134,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          1.8656773383951664
+          99
         </td>
         <td
           aria-sort={null}
@@ -9156,7 +9156,7 @@ exports[`Storyshots Table object, no table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-686"
         >
-          5.465597444282684
+          100
         </td>
         <td
           aria-sort={null}
@@ -9217,7 +9217,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          6.692568605768043
+          1
         </td>
       </tr>
       <tr
@@ -9233,7 +9233,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          5.301031411370349
+          2
         </td>
       </tr>
       <tr
@@ -9249,7 +9249,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          7.660874301330935
+          3
         </td>
       </tr>
       <tr
@@ -9265,7 +9265,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          5.983202606182465
+          4
         </td>
       </tr>
       <tr
@@ -9281,7 +9281,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          5.067105379032581
+          5
         </td>
       </tr>
       <tr
@@ -9297,7 +9297,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          4.120312362355774
+          6
         </td>
       </tr>
       <tr
@@ -9313,7 +9313,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          5.40433255434182
+          7
         </td>
       </tr>
       <tr
@@ -9329,7 +9329,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          1.8296922280171724
+          8
         </td>
       </tr>
       <tr
@@ -9345,7 +9345,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          4.836321217302655
+          9
         </td>
       </tr>
       <tr
@@ -9361,7 +9361,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          0.28731076936182376
+          10
         </td>
       </tr>
       <tr
@@ -9377,7 +9377,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          1.932499879058318
+          11
         </td>
       </tr>
       <tr
@@ -9393,7 +9393,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          2.5097966838676466
+          12
         </td>
       </tr>
       <tr
@@ -9409,7 +9409,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          7.348309523731007
+          13
         </td>
       </tr>
       <tr
@@ -9425,7 +9425,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          9.605678908446944
+          14
         </td>
       </tr>
       <tr
@@ -9441,7 +9441,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          5.529656048280655
+          15
         </td>
       </tr>
       <tr
@@ -9457,7 +9457,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          7.914275756251157
+          16
         </td>
       </tr>
       <tr
@@ -9473,7 +9473,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          4.098488468138828
+          17
         </td>
       </tr>
       <tr
@@ -9489,7 +9489,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          8.322236672683676
+          18
         </td>
       </tr>
       <tr
@@ -9505,7 +9505,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          1.7549059038119363
+          19
         </td>
       </tr>
       <tr
@@ -9521,7 +9521,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          6.354769131747828
+          20
         </td>
       </tr>
       <tr
@@ -9537,7 +9537,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          1.0210616539897543
+          21
         </td>
       </tr>
       <tr
@@ -9553,7 +9553,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          5.24060853141558
+          22
         </td>
       </tr>
       <tr
@@ -9569,7 +9569,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          9.442855691985692
+          23
         </td>
       </tr>
       <tr
@@ -9585,7 +9585,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          1.4405192698448843
+          24
         </td>
       </tr>
       <tr
@@ -9601,7 +9601,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          8.413261897214174
+          25
         </td>
       </tr>
       <tr
@@ -9617,7 +9617,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          1.583501665623055
+          26
         </td>
       </tr>
       <tr
@@ -9633,7 +9633,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          1.7209351295663988
+          27
         </td>
       </tr>
       <tr
@@ -9649,7 +9649,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          5.745186554771038
+          28
         </td>
       </tr>
       <tr
@@ -9665,7 +9665,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          1.2233766659456435
+          29
         </td>
       </tr>
       <tr
@@ -9681,7 +9681,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          0.7995348611088571
+          30
         </td>
       </tr>
       <tr
@@ -9697,7 +9697,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          9.316328716772922
+          31
         </td>
       </tr>
       <tr
@@ -9713,7 +9713,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          4.46548179945629
+          32
         </td>
       </tr>
       <tr
@@ -9729,7 +9729,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          2.7756956419250423
+          33
         </td>
       </tr>
       <tr
@@ -9745,7 +9745,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          2.3671697408804304
+          34
         </td>
       </tr>
       <tr
@@ -9761,7 +9761,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          7.16446057995995
+          35
         </td>
       </tr>
       <tr
@@ -9777,7 +9777,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          3.9808368991929854
+          36
         </td>
       </tr>
       <tr
@@ -9793,7 +9793,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          7.022273534881595
+          37
         </td>
       </tr>
       <tr
@@ -9809,7 +9809,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          0.32436695563355267
+          38
         </td>
       </tr>
       <tr
@@ -9825,7 +9825,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          3.1151449080784355
+          39
         </td>
       </tr>
       <tr
@@ -9841,7 +9841,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          8.314641084437639
+          40
         </td>
       </tr>
       <tr
@@ -9857,7 +9857,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          3.19654562714486
+          41
         </td>
       </tr>
       <tr
@@ -9873,7 +9873,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          5.654137205926801
+          42
         </td>
       </tr>
       <tr
@@ -9889,7 +9889,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          4.591635349290777
+          43
         </td>
       </tr>
       <tr
@@ -9905,7 +9905,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          2.8718893700331205
+          44
         </td>
       </tr>
       <tr
@@ -9921,7 +9921,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          5.628939176717278
+          45
         </td>
       </tr>
       <tr
@@ -9937,7 +9937,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          8.997273397238445
+          46
         </td>
       </tr>
       <tr
@@ -9953,7 +9953,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          5.019560536307955
+          47
         </td>
       </tr>
       <tr
@@ -9969,7 +9969,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          2.733257240416327
+          48
         </td>
       </tr>
       <tr
@@ -9985,7 +9985,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          9.25834399432453
+          49
         </td>
       </tr>
       <tr
@@ -10001,7 +10001,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          2.8604598270654735
+          50
         </td>
       </tr>
       <tr
@@ -10017,7 +10017,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          6.3036409009022325
+          51
         </td>
       </tr>
       <tr
@@ -10033,7 +10033,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          7.126893264057015
+          52
         </td>
       </tr>
       <tr
@@ -10049,7 +10049,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          3.8285937134363524
+          53
         </td>
       </tr>
       <tr
@@ -10065,7 +10065,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          9.436414538472143
+          54
         </td>
       </tr>
       <tr
@@ -10081,7 +10081,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          0.9854919420386477
+          55
         </td>
       </tr>
       <tr
@@ -10097,7 +10097,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          9.301064327325843
+          56
         </td>
       </tr>
       <tr
@@ -10113,7 +10113,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          8.43615888893908
+          57
         </td>
       </tr>
       <tr
@@ -10129,7 +10129,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          5.387966797574664
+          58
         </td>
       </tr>
       <tr
@@ -10145,7 +10145,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          7.013318547283074
+          59
         </td>
       </tr>
       <tr
@@ -10161,7 +10161,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          1.1143480905247305
+          60
         </td>
       </tr>
       <tr
@@ -10177,7 +10177,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          7.766282954091408
+          61
         </td>
       </tr>
       <tr
@@ -10193,7 +10193,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          1.0387403463653322
+          62
         </td>
       </tr>
       <tr
@@ -10209,7 +10209,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          5.987086607076457
+          63
         </td>
       </tr>
       <tr
@@ -10225,7 +10225,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          6.909802055940444
+          64
         </td>
       </tr>
       <tr
@@ -10241,7 +10241,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          4.308859610535476
+          65
         </td>
       </tr>
       <tr
@@ -10257,7 +10257,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          7.9078627867914975
+          66
         </td>
       </tr>
       <tr
@@ -10273,7 +10273,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          7.123858145817394
+          67
         </td>
       </tr>
       <tr
@@ -10289,7 +10289,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          0.2888853808284897
+          68
         </td>
       </tr>
       <tr
@@ -10305,7 +10305,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          9.493141603327626
+          69
         </td>
       </tr>
       <tr
@@ -10321,7 +10321,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          2.4982640547016377
+          70
         </td>
       </tr>
       <tr
@@ -10337,7 +10337,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          9.047480649736546
+          71
         </td>
       </tr>
       <tr
@@ -10353,7 +10353,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          9.653239021976974
+          72
         </td>
       </tr>
       <tr
@@ -10369,7 +10369,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          0.25997752494688164
+          73
         </td>
       </tr>
       <tr
@@ -10385,7 +10385,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          5.3039031561722645
+          74
         </td>
       </tr>
       <tr
@@ -10401,7 +10401,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          8.460556059165413
+          75
         </td>
       </tr>
       <tr
@@ -10417,7 +10417,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          6.327690391247893
+          76
         </td>
       </tr>
       <tr
@@ -10433,7 +10433,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          7.21249469786078
+          77
         </td>
       </tr>
       <tr
@@ -10449,7 +10449,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          7.726134600721986
+          78
         </td>
       </tr>
       <tr
@@ -10465,7 +10465,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          8.104740078692267
+          79
         </td>
       </tr>
       <tr
@@ -10481,7 +10481,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          8.50216873242891
+          80
         </td>
       </tr>
       <tr
@@ -10497,7 +10497,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          8.781162764683462
+          81
         </td>
       </tr>
       <tr
@@ -10513,7 +10513,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          5.591368044150185
+          82
         </td>
       </tr>
       <tr
@@ -10529,7 +10529,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          4.19720685289046
+          83
         </td>
       </tr>
       <tr
@@ -10545,7 +10545,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          1.6686622345257862
+          84
         </td>
       </tr>
       <tr
@@ -10561,7 +10561,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          6.593572384768221
+          85
         </td>
       </tr>
       <tr
@@ -10577,7 +10577,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          3.5192362248440667
+          86
         </td>
       </tr>
       <tr
@@ -10593,7 +10593,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          1.7386119915083587
+          87
         </td>
       </tr>
       <tr
@@ -10609,7 +10609,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          2.7640177792681286
+          88
         </td>
       </tr>
       <tr
@@ -10625,7 +10625,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          7.496105231816765
+          89
         </td>
       </tr>
       <tr
@@ -10641,7 +10641,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          4.803370230535322
+          90
         </td>
       </tr>
       <tr
@@ -10657,7 +10657,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          2.6875787372201954
+          91
         </td>
       </tr>
       <tr
@@ -10673,7 +10673,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          7.839469887850563
+          92
         </td>
       </tr>
       <tr
@@ -10689,7 +10689,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          9.630470358020865
+          93
         </td>
       </tr>
       <tr
@@ -10705,7 +10705,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          2.7366066426704028
+          94
         </td>
       </tr>
       <tr
@@ -10721,7 +10721,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          7.3968840858459135
+          95
         </td>
       </tr>
       <tr
@@ -10737,7 +10737,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          6.0474370419237715
+          96
         </td>
       </tr>
       <tr
@@ -10753,7 +10753,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          2.858418681607513
+          97
         </td>
       </tr>
       <tr
@@ -10769,7 +10769,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          0.7665420821023061
+          98
         </td>
       </tr>
       <tr
@@ -10785,7 +10785,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          1.8656773383951664
+          99
         </td>
       </tr>
       <tr
@@ -10801,7 +10801,7 @@ exports[`Storyshots Table object, table definition 1`] = `
           aria-sort={null}
           className="MuiTableCell-root MuiTableCell-body WithStyles(ForwardRef(TableCell))-body-736"
         >
-          5.465597444282684
+          100
         </td>
       </tr>
     </tbody>
