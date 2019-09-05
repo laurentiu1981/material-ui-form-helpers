@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import clsx from "clsx";
 import Select from "react-select";
 import { emphasize, useTheme } from "@material-ui/core/styles";
-import { makeStyles } from "@material-ui/styles";
+import { makeStyles } from "@material-ui/core";
 import { Typography, TextField, Paper, Chip } from "@material-ui/core";
 import MenuItem from "@material-ui/core/MenuItem";
 import { CancelIcon } from "@material-ui/icons";
