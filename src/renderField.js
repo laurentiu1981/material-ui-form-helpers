@@ -1,6 +1,6 @@
 import React from 'react';
 import { TextField, Typography } from "@material-ui/core";
-import { FieldCheckbox, FieldSelect } from "./components";
+import { FieldCheckbox, FieldSelect, FieldColor } from "./components";
 import { makeStyles } from "@material-ui/core";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
@@ -211,6 +211,24 @@ const datePickerField = ({input, startDate, dateFormat, inputProps, meta: {touch
   )
 };
 
+const colorField = ({input, label, type, meta: {touched, error}}) => {
+	return (
+		<div>
+			<FieldColor
+				input={input}
+				name={input.name}
+				label={label}
+			/>
+			{
+				touched && error &&
+				<span className="errorMessage">
+          {error}
+        </span>
+			}
+		</div>
+	)
+};
+
 const render = (props) => {
   switch (props.type) {
     case 'select':
@@ -228,6 +246,8 @@ const render = (props) => {
       return textField(props);
     case 'datePicker':
       return datePickerField(props);
+		case 'color':
+			return colorField(props);
     default:
       return simpleField(props);
   }
