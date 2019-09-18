@@ -1,8 +1,8 @@
 import React from 'react';
-import { withStyles } from "@material-ui/core/styles/index";
+import { withStyles } from "@material-ui/core";
 import autobind from 'class-autobind';
 import { SketchPicker } from "react-color";
-import { TextField } from "@material-ui/core/es/index";
+import { TextField } from "@material-ui/core";
 
 const styles = theme => ({
   title: {

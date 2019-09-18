@@ -1,8 +1,8 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import { Field } from "redux-form";
-import { renderField } from "../../renderField";
-import withReduxForm from "redux-form-storybook";
+import { Field } from 'redux-form';
+import { renderField } from '../../renderField';
+import withReduxForm from 'redux-form-storybook';
 import { withTheme } from '../../../.storybook/decorators';
 
 
@@ -17,5 +17,5 @@ storiesOf('FieldColor', module)
 				type="color"
 				label="Color"
 			/>
-		)
+		);
 	});
