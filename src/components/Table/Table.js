@@ -46,8 +46,9 @@ class BasicTable extends React.Component {
     this._initialize(props);
   }
 
-  componentDidUpdate(prevProps, prevState, snapshot) {
-    this._initialize(this.props);
+  shouldComponentUpdate(nextProps, nextState, nextContent) {
+    this._initialize(nextProps);
+    return true;
   }
 
   _initialize(props) {
