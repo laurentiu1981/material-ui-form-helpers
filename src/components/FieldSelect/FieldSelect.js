@@ -5,7 +5,7 @@ import { emphasize, useTheme } from "@material-ui/core/styles";
 import { makeStyles } from "@material-ui/core";
 import { Typography, TextField, Paper, Chip } from "@material-ui/core";
 import MenuItem from "@material-ui/core/MenuItem";
-import { CancelIcon } from "@material-ui/icons";
+import { Cancel } from "@material-ui/icons";
 import PropTypes from "prop-types";
 import InputAdornment from "@material-ui/core/InputAdornment/InputAdornment";
 import AccountCircle from "@material-ui/core/SvgIcon/SvgIcon";
@@ -202,7 +202,7 @@ function MultiValue(props) {
         [props.selectProps.classes.chipFocused]: props.isFocused
       })}
       onDelete={props.removeProps.onClick}
-      deleteIcon={<CancelIcon {...props.removeProps} />}
+      deleteIcon={<Cancel {...props.removeProps} />}
     />
   );
 }

@@ -29,6 +29,16 @@ storiesOf('FieldSelect', module)
       />
     )
   })
+  .add('multi basic', () => {
+    return (
+      <Field
+        label="Multi Chosen Select"
+        type="chosenMultiSelect"
+        component={renderField}
+        options={options}
+      />
+    )
+  })
   .add('disabled', () => {
     return (
       <Field

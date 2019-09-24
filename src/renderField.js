@@ -126,7 +126,7 @@ const chosenSelectField = ({input, label, type, loading, disabled, defaultValue,
         input={input}
         name={input.name}
         options={options}
-        multi={false}
+        isMulti={false}
         placeholder={label}
         label={label + (required ? '*' : '')}
         error={!!error && touched}
@@ -145,19 +145,23 @@ const chosenSelectField = ({input, label, type, loading, disabled, defaultValue,
   )
 };
 
-const chosenMultiSelectField = ({input, label, type, options, meta: {touched, error}, onMount}) => {
+const chosenMultiSelectField = ({input, label, type, loading, disabled, defaultValue, options, meta: {touched, error}, onMount, required}) => {
+  const classes = useStyles();
   return (
-    <div>
-      <label htmlFor={input.name}>
-        {label}
-      </label>
+    <div className={classes.formControl}>
       <div>
         <FieldSelect
           input={input}
           name={input.name}
           options={options}
-          multi={true}
+          isMulti={true}
           placeholder={label}
+          label={label + (required ? '*' : '')}
+          error={!!error && touched}
+          onMount={onMount}
+          loading={loading}
+          disabled={disabled}
+          value={input.value || defaultValue}
         />
         {touched &&
         error &&
