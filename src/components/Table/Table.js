@@ -8,9 +8,12 @@ import TableCell from '@material-ui/core/TableCell';
 import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 import Paper from '@material-ui/core/Paper';
+import { LinearProgress } from "@material-ui/core";
 import LoadingBox from "../LoadingBox";
 import _ from 'lodash';
 import SectionHeader from "./SectionHeader";
+import Paginator from "../Paginator";
+import TableFilterForm from "../TableFilterForm";
 
 
 const styles = theme => ({
@@ -44,6 +47,10 @@ class BasicTable extends React.Component {
     super(props);
     autobind(this);
     this._initialize(props);
+    this.state = {
+      filterOptions: {},
+      paginationInfo: {}
+    };
   }
 
   shouldComponentUpdate(nextProps, nextState, nextContent) {
@@ -147,16 +154,52 @@ class BasicTable extends React.Component {
     );
   }
 
+  updatePagination = (paginationInfo) => {
+    this.setState({paginationInfo: {...this.state.paginationInfo, ...paginationInfo}}, () => {
+      this.props.fetchCallback(this.state.filterOptions, this.state.paginationInfo);
+    });
+
+  };
+
+  applyFilter = (filterOptions) => {
+    this.setState({filterOptions: {...this.state.filterOptions, ...filterOptions}}, () => {
+      this.props.fetchCallback(this.state.filterOptions, this.state.paginationInfo);
+    })
+  };
+
+  defaultSorts = () => {
+    return this.tableDefinition.filter((field) => field.hasOwnProperty('sort') && field.sort.hasOwnProperty('defaultSort')).map((field) => {
+      return {
+        fieldName: {value: field.name, label: field.label},
+        direction: {value: field.sort.defaultSort, label: field.sort.defaultSort},
+      };
+    });
+  };
+
+  onReset = () => {
+    this.setState({
+      filterOptions: {},
+      paginationInfo: {...this.state.paginationInfo, page: 0, rowsPerPage: this.props.paginatorInfo.rowsPerPage}
+    }, () => {
+      this.props.fetchCallback({}, {page: 0, rowsPerPage: this.props.paginatorInfo.rowsPerPage});
+    });
+  };
+
   render() {
-    const {classes, reloading} = this.props;
+    const {classes, reloading, paginator, filter} = this.props;
     return (
       <Paper className={classes.root}>
+        {filter && <TableFilterForm onSubmit={this.applyFilter} tableDefinition={this.props.tableDefinition}
+                                    defaultSort={this.defaultSorts()} onResetCallback={this.onReset}/>
+        }
         <Table className={classes.table}>
           {this.renderSectionHeader()}
           {this.renderHeader()}
           {this.renderBody()}
         </Table>
-        {reloading && <LoadingBox/>}
+        { reloading && <LoadingBox/> }
+        { reloading && <LinearProgress/> }
+        { paginator && <Paginator {...this.state.paginationInfo}/> }
       </Paper>
     )
   }
@@ -170,12 +213,20 @@ BasicTable.propTypes = {
   tableDefinition: PropTypes.array,
   sectionLabel: PropTypes.string,
   reloading: PropTypes.bool,
+  paginator: PropTypes.oneOfType([
+    PropTypes.bool,
+    PropTypes.object,
+  ]),
+  fetchCallback: PropTypes.func,
+  filter: PropTypes.bool
 };
 
 BasicTable.defaultProps = {
   items: {},
   tableDefinition: [],
   reloading: false,
+  paginator: false,
+  filter: false,
 };
 
 export default withStyles(styles)(BasicTable);

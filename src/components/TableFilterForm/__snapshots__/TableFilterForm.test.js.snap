@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TableFilterForm Tests Table Filter Form - add & remove sort pair 1`] = `
+<input
+  aria-invalid="false"
+  class="MuiInputBase-input MuiInput-input MuiInputBase-inputMarginDense MuiInput-inputMarginDense"
+  name="intervalElement_min"
+  type="text"
+  value="1"
+/>
+`;
+
+exports[`TableFilterForm Tests Table Filter Form - add & remove sort pair 2`] = `
+<input
+  aria-invalid="false"
+  class="MuiInputBase-input MuiInput-input MuiInputBase-inputMarginDense MuiInput-inputMarginDense"
+  name="intervalElement_max"
+  type="text"
+  value="10"
+/>
+`;
+
+exports[`TableFilterForm Tests Table Filter Form - add & remove sort pair 3`] = `
+<svg
+  aria-hidden="true"
+  class="MuiSvgIcon-root"
+  focusable="false"
+  role="presentation"
+  viewBox="0 0 24 24"
+>
+  <path
+    d="M0 0h24v24H0z"
+    fill="none"
+  />
+  <path
+    d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11h-4v4h-2v-4H7v-2h4V7h2v4h4v2z"
+  />
+</svg>
+`;
+
+exports[`TableFilterForm Tests Table Filter Form - submit & cancel 1`] = `
+<input
+  aria-invalid="false"
+  class="MuiInputBase-input MuiInput-input MuiInputBase-inputMarginDense MuiInput-inputMarginDense"
+  name="simpleElement"
+  type="text"
+  value="testInputSimpleElement"
+/>
+`;
+
+exports[`TableFilterForm Tests Table Filter Form - submit & cancel 2`] = `
+<input
+  aria-invalid="false"
+  class="MuiInputBase-input MuiInput-input MuiInputBase-inputMarginDense MuiInput-inputMarginDense"
+  name="intervalElement_min"
+  type="text"
+  value="1"
+/>
+`;
+
+exports[`TableFilterForm Tests Table Filter Form - submit & cancel 3`] = `
+<input
+  aria-invalid="false"
+  class="MuiInputBase-input MuiInput-input MuiInputBase-inputMarginDense MuiInput-inputMarginDense"
+  name="intervalElement_max"
+  type="text"
+  value="10"
+/>
+`;
+
+exports[`TableFilterForm Tests Table Filter Form - submit & cancel 4`] = `
+<input
+  aria-invalid="false"
+  class="MuiInputBase-input MuiInput-input MuiInputBase-inputMarginDense MuiInput-inputMarginDense"
+  name="simpleElement"
+  type="text"
+  value=""
+/>
+`;
+
+exports[`TableFilterForm Tests Table Filter Form - submit & cancel 5`] = `
+<input
+  aria-invalid="false"
+  class="MuiInputBase-input MuiInput-input MuiInputBase-inputMarginDense MuiInput-inputMarginDense"
+  name="intervalElement_min"
+  type="text"
+  value=""
+/>
+`;
+
+exports[`TableFilterForm Tests Table Filter Form - submit & cancel 6`] = `
+<input
+  aria-invalid="false"
+  class="MuiInputBase-input MuiInput-input MuiInputBase-inputMarginDense MuiInput-inputMarginDense"
+  name="intervalElement_max"
+  type="text"
+  value=""
+/>
+`;
+
+exports[`TableFilterForm Tests Table Filter Form - submit 1`] = `
+<input
+  aria-invalid="false"
+  class="MuiInputBase-input MuiInput-input MuiInputBase-inputMarginDense MuiInput-inputMarginDense"
+  name="simpleElement"
+  type="text"
+  value="testInputSimpleElement"
+/>
+`;
+
+exports[`TableFilterForm Tests Table Filter Form - submit 2`] = `
+<input
+  aria-invalid="false"
+  class="MuiInputBase-input MuiInput-input MuiInputBase-inputMarginDense MuiInput-inputMarginDense"
+  name="intervalElement_min"
+  type="text"
+  value="1"
+/>
+`;
+
+exports[`TableFilterForm Tests Table Filter Form - submit 3`] = `
+<input
+  aria-invalid="false"
+  class="MuiInputBase-input MuiInput-input MuiInputBase-inputMarginDense MuiInput-inputMarginDense"
+  name="intervalElement_max"
+  type="text"
+  value="10"
+/>
+`;

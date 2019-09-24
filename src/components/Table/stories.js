@@ -2,6 +2,7 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 import Table from './Table';
 import { withTheme } from "../../../.storybook/decorators";
+import withReduxForm from "redux-form-storybook";
 
 let itemsObject = {};
 let itemsList = [];
@@ -56,6 +57,7 @@ let tableDefinitionOneCol = [
 
 storiesOf('Table', module)
   .addDecorator(withTheme)
+  .addDecorator(withReduxForm)
   .add('array, no table definition', () => {
     return (
       <Table items={itemsList}/>
@@ -64,6 +66,16 @@ storiesOf('Table', module)
   .add('array, table definition', () => {
     return (
       <Table items={itemsList} tableDefinition={tableDefinition}/>
+    )
+  })
+  .add('with paginator', () => {
+    return (
+      <Table items={itemsList} paginator={true} tableDefinition={tableDefinition}/>
+    )
+  })
+  .add('with filter', () => {
+    return (
+      <Table filter={true} items={itemsList} paginator={true} tableDefinition={tableDefinition}/>
     )
   })
   .add('object, no table definition', () => {
