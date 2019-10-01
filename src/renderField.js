@@ -195,7 +195,7 @@ const checkBoxField = ({input, checked, label, type, meta: {touched, error}}) =>
   )
 };
 
-const datePickerField = ({input, startDate, dateFormat, inputProps, meta: {touched, error}}) => {
+const datePickerField = ({input, startDate, label, dateFormat, inputProps, meta: {touched, error}}) => {
   const classes = useStyles();
   return (
     <div className={classes.formControl}>
@@ -204,6 +204,7 @@ const datePickerField = ({input, startDate, dateFormat, inputProps, meta: {touch
           <TextField
             margin="dense"
             fullWidth
+            label={label}
             InputProps={inputProps}
           />
         }

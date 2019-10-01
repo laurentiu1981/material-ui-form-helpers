@@ -27,4 +27,13 @@ storiesOf('FieldCheckbox', module)
 				checked={false}
 			/>
 		);
+	})
+	.add('datepicker', () => {
+		return (
+			<Field
+				component={renderField}
+				type="datePicker"
+				label="Date Picker"
+			/>
+		);
 	});
