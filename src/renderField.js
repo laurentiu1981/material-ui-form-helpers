@@ -21,11 +21,12 @@ const simpleField = ({input, label, type, meta: {touched, error}}) => {
 
       <div>
         <input {...input} placeholder={label} type={type}/>
-        {touched &&
-        error &&
-        <span className="errorMessage">
-    {error}
-    </span>}
+				{
+					touched && error &&
+					<Typography paragraph color="error">
+						{error}
+					</Typography>
+				}
       </div>
     </div>
   )
@@ -55,10 +56,12 @@ const textField = ({input, label, helperText, type, onChangeHandler, disabled, i
         disabled={disabled}
         InputProps={inputProps}
       />
-      {touched &&
-      error && <Typography paragraph color="error">
-        {error}
-      </Typography>}
+			{
+				touched && error &&
+				<Typography paragraph color="error">
+					{error}
+				</Typography>
+			}
     </div>
   )
 }
@@ -80,10 +83,12 @@ const textAreaField = ({input, label, type, meta: {touched, error}, required}) =
         name={input.name}
         error={!!error && touched}
       />
-      {touched &&
-      error && <Typography paragraph color="error">
-        {error}
-      </Typography>}
+			{
+				touched && error &&
+				<Typography paragraph color="error">
+					{error}
+				</Typography>
+			}
     </div>
   )
 };
@@ -105,11 +110,12 @@ const selectField = ({input, label, type, options, meta: {touched, error}}) => {
             )
           }
         </select>
-        {touched &&
-        error &&
-        <span className="errorMessage">
-    {error}
-    </span>}
+				{
+					touched && error &&
+					<Typography paragraph color="error">
+						{error}
+					</Typography>
+				}
       </div>
     </div>
   )
@@ -165,12 +171,12 @@ const chosenMultiSelectField = ({input, label, type, loading, disabled, defaultV
           disabled={disabled}
           value={input.value || defaultValue}
         />
-        {touched &&
-        error &&
-        <Typography paragraph color="error">
-          {error}
-        </Typography>
-        }
+				{
+					touched && error &&
+					<Typography paragraph color="error">
+						{error}
+					</Typography>
+				}
       </div>
     </div>
   )
@@ -213,7 +219,12 @@ const datePickerField = ({input, startDate, label, dateFormat, inputProps, meta:
         dateFormat={dateFormat}
       >
       </DatePicker>
-      {touched && error && <span className="error_field">{error}</span>}
+			{
+				touched && error &&
+				<Typography paragraph color="error">
+					{error}
+				</Typography>
+			}
     </div>
   )
 };
@@ -236,6 +247,20 @@ const colorField = ({input, label, type, meta: {touched, error}}) => {
 	)
 };
 
+const fieldsGroupWrapper = ({children, input, label, type, meta: {touched, error}}) => {
+	return (
+		<div>
+			{children}
+			{
+				touched && error &&
+				<Typography paragraph color="error">
+					{error}
+				</Typography>
+			}
+		</div>
+	)
+};
+
 const render = (props) => {
   switch (props.type) {
     case 'select':
@@ -253,6 +278,8 @@ const render = (props) => {
       return textField(props);
     case 'datePicker':
       return datePickerField(props);
+    case 'fieldsGroupWrapper':
+      return fieldsGroupWrapper(props);
 		case 'color':
 			return colorField(props);
     default:
