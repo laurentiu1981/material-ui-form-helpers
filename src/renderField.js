@@ -290,4 +290,5 @@ const renderField = (props) => (
 
 export {
   renderField,
+  renderErrors
 };
