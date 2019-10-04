@@ -61,6 +61,17 @@ storiesOf('FieldSelect', module)
       />
     )
   })
+	.add('multiple error messages', () => {
+		return (
+			<Field
+				label="Error Chosen Select"
+				type="chosenSelect"
+				component={renderField}
+				options={options}
+				meta={{error: ["Error message", "Error message 2"], touched: true}}
+			/>
+		)
+	})
   .add('required', () => {
     return (
       <Field

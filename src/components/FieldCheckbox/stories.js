@@ -34,6 +34,7 @@ storiesOf('FieldCheckbox', module)
 				component={renderField}
 				type="datePicker"
 				label="Date Picker"
+				error={true}
 			/>
 		);
 	});
