@@ -16,22 +16,26 @@ const useStyles = makeStyles(theme => ({
   }
 }));
 
-const renderErrors = (error) => {
-	const classes = useStyles();
+const RenderErrors = (props) => {
+  const classes = useStyles();
+  const {error} = props;
   if (_.isArray(error)) {
     return error.map((message, key) =>
-			<Typography className={classes.errorMessage} key={key} paragraph color="error">
-				{message}
-			</Typography>
+      <Typography className={classes.errorMessage} key={key} paragraph color="error">
+        {message}
+      </Typography>
     )
   }
   else {
-    return (
-			<Typography className={classes.errorMessage} paragraph color="error">
-				{error}
-			</Typography>
-    )
+    if (_.isString(error)) {
+      return (
+        <Typography className={classes.errorMessage} paragraph color="error">
+          {error}
+        </Typography>
+      )
+    }
   }
+  return null;
 };
 
 const simpleField = ({input, label, type, meta: {touched, error}}) => {
@@ -43,9 +47,9 @@ const simpleField = ({input, label, type, meta: {touched, error}}) => {
 
       <div>
         <input {...input} placeholder={label} type={type}/>
-				{
-					touched && error && renderErrors(error)
-				}
+        {
+          touched && error && <RenderErrors error={error} />
+        }
       </div>
     </div>
   )
@@ -75,9 +79,9 @@ const textField = ({input, label, helperText, type, onChangeHandler, disabled, i
         disabled={disabled}
         InputProps={inputProps}
       />
-			{
-				touched && error && renderErrors(error)
-			}
+      {
+        touched && error && <RenderErrors error={error} />
+      }
     </div>
   )
 }
@@ -99,9 +103,9 @@ const textAreaField = ({input, label, type, meta: {touched, error}, required}) =
         name={input.name}
         error={!!error && touched}
       />
-			{
-				touched && error && renderErrors(error)
-			}
+      {
+        touched && error && <RenderErrors error={error} />
+      }
     </div>
   )
 };
@@ -123,9 +127,9 @@ const selectField = ({input, label, type, options, meta: {touched, error}}) => {
             )
           }
         </select>
-				{
-					touched && error && renderErrors(error)
-				}
+        {
+          touched && error && <RenderErrors error={error} />
+        }
       </div>
     </div>
   )
@@ -143,7 +147,7 @@ const chosenSelectField = ({input, label, type, loading, disabled, defaultValue,
         name={input.name}
         options={options}
         isMulti={false}
-				multi={false}
+        multi={false}
         placeholder={label}
         label={label + (required ? '*' : '')}
         error={!!error && touched}
@@ -153,7 +157,7 @@ const chosenSelectField = ({input, label, type, loading, disabled, defaultValue,
         value={input.value || defaultValue}
       />
       {
-				touched && error && renderErrors(error)
+        touched && error && <RenderErrors error={error} />
       }
     </div>
   )
@@ -169,7 +173,7 @@ const chosenMultiSelectField = ({input, label, type, loading, disabled, defaultV
           name={input.name}
           options={options}
           isMulti={true}
-					multi={true}
+          multi={true}
           placeholder={label}
           label={label + (required ? '*' : '')}
           error={!!error && touched}
@@ -178,9 +182,9 @@ const chosenMultiSelectField = ({input, label, type, loading, disabled, defaultV
           disabled={disabled}
           value={input.value || defaultValue}
         />
-				{
-					touched && error && renderErrors(error)
-				}
+        {
+          touched && error && <RenderErrors error={error} />
+        }
       </div>
     </div>
   )
@@ -196,7 +200,7 @@ const checkBoxField = ({input, checked, label, type, meta: {touched, error}}) =>
         onChange={input.onChange}
       />
       {
-				touched && error && renderErrors(error)
+        touched && error && <RenderErrors error={error} />
       }
     </div>
   )
@@ -211,47 +215,48 @@ const datePickerField = ({input, startDate, label, dateFormat, inputProps, meta:
           <TextField
             margin="dense"
             fullWidth
+            error={!!error && touched}
             label={label}
             InputProps={inputProps}
           />
         }
-				error={!!error && touched}
+        error={!!error && touched}
         selected={input.value ? input.value : startDate}
         onChange={date => input.onChange(date)}
         dateFormat={dateFormat}
       >
       </DatePicker>
-			{
-				touched && error && renderErrors(error)
-			}
+      {
+        touched && error && <RenderErrors error={error} />
+      }
     </div>
   )
 };
 
 const colorField = ({input, label, type, meta: {touched, error}}) => {
-	return (
-		<div>
-			<FieldColor
-				input={input}
-				name={input.name}
-				label={label}
-			/>
-			{
-				touched && error && renderErrors(error)
-			}
-		</div>
-	)
+  return (
+    <div>
+      <FieldColor
+        input={input}
+        name={input.name}
+        label={label}
+      />
+      {
+        touched && error && <RenderErrors error={error} />
+      }
+    </div>
+  )
 };
 
 const fieldsGroupWrapper = ({children, input, label, type, meta: {touched, error}}) => {
-	return (
-		<div>
-			{children}
-			{
-				touched && error && renderErrors(error)
-			}
-		</div>
-	)
+  return (
+    <div>
+      {children}
+      {
+        touched && error && <RenderErrors error={error} />
+      }
+    </div>
+  )
 };
 
 const render = (props) => {
@@ -273,8 +278,8 @@ const render = (props) => {
       return datePickerField(props);
     case 'fieldsGroupWrapper':
       return fieldsGroupWrapper(props);
-		case 'color':
-			return colorField(props);
+    case 'color':
+      return colorField(props);
     default:
       return simpleField(props);
   }
@@ -290,5 +295,5 @@ const renderField = (props) => (
 
 export {
   renderField,
-  renderErrors
+  RenderErrors
 };
