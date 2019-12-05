@@ -16,6 +16,28 @@ while (n < 100) {
   n++;
 }
 
+n = 0;
+let groups = [];
+let group = false;
+while (n < 100) {
+	if (n % 10 === 0) {
+		if (group) {
+			groups.push(group);
+		}
+		group = {
+			'label': `Values ${n} = ${n + 9}`,
+			'options': []
+		};
+	}
+	if (group) {
+		group.options.push({
+			value: `value${n}`,
+			label: `Value${n}`,
+		});
+		n++;
+	}
+}
+
 storiesOf('FieldSelect', module)
   .addDecorator(withTheme)
   .addDecorator(withReduxForm)
@@ -39,6 +61,16 @@ storiesOf('FieldSelect', module)
       />
     )
   })
+	.add('groups basic', () => {
+		return (
+			<Field
+				label="Groups Basic"
+				type="chosenSelect"
+				component={renderField}
+				options={groups}
+			/>
+		)
+	})
   .add('disabled', () => {
     return (
       <Field

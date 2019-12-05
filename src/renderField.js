@@ -5,6 +5,7 @@ import { makeStyles } from "@material-ui/core";
 import DatePicker from "react-datepicker";
 import _ from 'lodash';
 import "react-datepicker/dist/react-datepicker.css";
+import MultiValueSelect from './components/MultiValueSelect/MultiValueSelect';
 
 const useStyles = makeStyles(theme => ({
   formControl: {
@@ -261,6 +262,22 @@ const fieldsGroupWrapper = ({children, input, label, type, meta: {touched, error
   )
 };
 
+const multiValueSelect = ({input, label, tableDefinition, labelProperties, groupOptionsBy, rawOptions, meta: {touched, error}}) => {
+  return (
+    <div>
+      <MultiValueSelect
+				name={input.name}
+        onChange={input.onChange}
+        label={label}
+        tableDefinition={tableDefinition}
+        labelProperties={labelProperties}
+				rawOptions={rawOptions}
+				groupOptionsBy={groupOptionsBy}
+      />
+    </div>
+  )
+};
+
 const render = (props) => {
   switch (props.type) {
     case 'select':
@@ -282,6 +299,9 @@ const render = (props) => {
       return fieldsGroupWrapper(props);
     case 'color':
       return colorField(props);
+    case 'multiValueSelect':
+      console.log(props);
+      return multiValueSelect(props);
     default:
       return simpleField(props);
   }
