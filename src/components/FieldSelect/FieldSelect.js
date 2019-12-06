@@ -289,13 +289,16 @@ export default function IntegrationReactSelect(props) {
   const id = props.id
     ? `react-select-${props.id}`
     : `react-select-${props.name}`;
+
+  let defaultValue = props.defaultValue ? { //this needs value and label to work for some reason.
+    value: props.defaultValue,
+    label: props.defaultValue
+  } : '';
+
   return (
     <Select
       {...props}
-      defaultValue={props.defaultValue ? { //this needs value and label to work for some reason.
-        value: props.defaultValue,
-        label: props.defaultValue
-      } : ''}
+      value={props.input.value || defaultValue}
       isDisabled={props.disabled}
       classes={classes}
       styles={selectStyles}
