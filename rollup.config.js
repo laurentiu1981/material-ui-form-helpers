@@ -62,8 +62,22 @@ export default [
 			name: 'material-ui-form-helpers',
 			globals: {
 				react: "React",
+        "react-dom": "ReactDOM",
 				"@material-ui/core": "core",
-				"react-dom": "ReactDOM",
+				"@material-ui/core/styles": "styles$3",
+				"@material-ui/core/MenuItem": "MenuItem",
+				"@material-ui/icons": "icons",
+				"@material-ui/core/Paper": "Paper",
+				"@material-ui/core/Table": "Table$1",
+				"@material-ui/core/Button": "Button",
+				"@material-ui/core/Chip": "Chip",
+				"@material-ui/core/TablePagination": "TablePagination",
+				"@material-ui/core/TableBody": "TableBody",
+				"@material-ui/core/TableCell": "TableCell",
+				"@material-ui/core/TableHead": "TableHead",
+				"@material-ui/core/TableRow": "TableRow",
+				"@material-ui/core/Typography": "Typography",
+
 			}
 		},
 		plugins: [
@@ -101,11 +115,25 @@ export default [
 			file: minifyExtension(pkg.browser),
 			format: 'umd',
 			name: 'material-ui-form-helpers',
-			globals: {
-				react: "React",
-				"@material-ui/core": "core",
-				"react-dom": "ReactDOM",
-			}
+      globals: {
+        react: "React",
+        "react-dom": "ReactDOM",
+        "@material-ui/core": "core",
+        "@material-ui/core/styles": "styles$3",
+        "@material-ui/core/MenuItem": "MenuItem",
+        "@material-ui/icons": "icons",
+        "@material-ui/core/Paper": "Paper",
+        "@material-ui/core/Table": "Table$1",
+        "@material-ui/core/Button": "Button",
+        "@material-ui/core/Chip": "Chip",
+        "@material-ui/core/TablePagination": "TablePagination",
+        "@material-ui/core/TableBody": "TableBody",
+        "@material-ui/core/TableCell": "TableCell",
+        "@material-ui/core/TableHead": "TableHead",
+        "@material-ui/core/TableRow": "TableRow",
+        "@material-ui/core/Typography": "Typography",
+
+      }
 		},
 		plugins: [
 			babel({
