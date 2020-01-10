@@ -1,12 +1,14 @@
 {
   "name": "material-ui-form-helpers",
-  "version": "0.1.18",
+  "version": "0.1.19",
   "description": "Render helpers for material ui inputs",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "module": "lib/index.esm.js",
   "scripts": {
     "test": "jest",
     "build": "webpack --env=prod --mode=production --progress --profile --colors --config=webpack.prod.config.js",
     "build:dev": "webpack --mode=development",
+    "rollup": "rollup -c",
     "storybook": "start-storybook -p 9001"
   },
   "jest": {
@@ -40,6 +42,7 @@
     "@babel/plugin-proposal-function-bind": "^7.2.0",
     "@babel/preset-env": "^7.2.3",
     "@babel/preset-react": "^7.0.0",
+    "@rollup/plugin-commonjs": "^11.0.1",
     "@storybook/addon-actions": "^5.1.11",
     "@storybook/addon-storyshots": "^5.1.11",
     "@storybook/react": "^5.1.11",
@@ -53,6 +56,12 @@
     "node-sass": "^4.11.0",
     "react-test-renderer": "^16.9.0",
     "redux-devtools-extension": "^2.13.8",
+    "rollup": "^1.29.0",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-peer-deps-external": "^2.2.0",
+    "rollup-plugin-postcss": "^2.0.3",
+    "rollup-plugin-uglify": "^6.0.4",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.0",
     "url-loader": "^1.1.1",
