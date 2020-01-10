@@ -1,5 +1,4 @@
 const path = require('path');
-var nodeExternals = require('webpack-node-externals');
 
 module.exports = {
   entry: './index.js',
@@ -40,5 +39,4 @@ module.exports = {
     filename: 'index.js',
     libraryTarget: 'umd',
   },
-  externals: [nodeExternals()],
 };
