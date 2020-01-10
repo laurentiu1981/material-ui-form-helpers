@@ -1,5 +1,5 @@
 import React from "react";
-import TablePagination from "@material-ui/core/TablePagination/TablePagination";
+import TablePagination from "@material-ui/core/TablePagination";
 import PropTypes from 'prop-types';
 
 class Paginator extends React.Component {

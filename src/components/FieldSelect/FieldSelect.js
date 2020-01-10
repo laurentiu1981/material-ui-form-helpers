@@ -7,9 +7,9 @@ import { Typography, TextField, Paper, Chip } from "@material-ui/core";
 import MenuItem from "@material-ui/core/MenuItem";
 import { Cancel } from "@material-ui/icons";
 import PropTypes from "prop-types";
-import InputAdornment from "@material-ui/core/InputAdornment/InputAdornment";
-import AccountCircle from "@material-ui/core/SvgIcon/SvgIcon";
-import _ from 'lodash';
+import InputAdornment from "@material-ui/core/InputAdornment";
+import AccountCircle from "@material-ui/core/SvgIcon";
+import isBoolean from 'lodash/isBoolean';
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -261,7 +261,7 @@ export default function IntegrationReactSelect(props) {
   }, []);
 
   useEffect(() => {
-    if (props.hasOwnProperty('loading') && _.isBoolean(props.loading)) {
+    if (props.hasOwnProperty('loading') && isBoolean(props.loading)) {
       setLoading(props.loading)
     }
   });
