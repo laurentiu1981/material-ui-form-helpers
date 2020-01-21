@@ -1,6 +1,6 @@
 {
   "name": "material-ui-form-helpers",
-  "version": "0.1.24",
+  "version": "0.1.25",
   "description": "Render helpers for material ui inputs",
   "main": "lib/index.js",
   "browser": "lib/index.umd.js",

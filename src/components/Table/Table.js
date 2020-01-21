@@ -60,6 +60,9 @@ class BasicTable extends React.Component {
 
   _initialize(props) {
     this.items = _.isArray(props.items) ? props.items : Object.values(props.items);
+    if (props.preprocessItemsCallback) {
+      this.items = props.preprocessItemsCallback(this.items);
+    }
     this.tableDefinition = this._generateTableDefinition(props);
   }
 
@@ -211,6 +214,7 @@ BasicTable.propTypes = {
     PropTypes.array,
   ]),
   tableDefinition: PropTypes.array,
+  preprocessItemsCallback: PropTypes.func,
   sectionLabel: PropTypes.string,
   reloading: PropTypes.bool,
   paginator: PropTypes.oneOfType([
