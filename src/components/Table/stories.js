@@ -54,6 +54,33 @@ let tableDefinitionOneCol = [
   ]
 ;
 
+let tableDefinitionFilters = [
+    {
+      "label": "Name",
+      "property": "name",
+      "dataType": "text",
+      "sort": true,
+      "filter": {
+        "weight": 1,
+        "basicFilter": true,
+        "type": "text"
+      },
+      "name": 'name',
+    },
+    {
+      "label": "Number",
+      "property": "number",
+      "dataType": "text",
+      "sort": true,
+      "filter": {
+        "weight": 1,
+        "type": "text"
+      },
+      "name": 'number',
+    }
+  ]
+;
+
 
 storiesOf('Table', module)
   .addDecorator(withTheme)
@@ -70,12 +97,60 @@ storiesOf('Table', module)
   })
   .add('with paginator', () => {
     return (
-      <Table items={itemsList} paginator={true} tableDefinition={tableDefinition}/>
+      <Table items={itemsList} paginator={true} autoPaginateItems={true} tableDefinition={tableDefinition}/>
     )
   })
   .add('with filter', () => {
+
+    class Wrapper extends React.Component {
+
+      constructor(props) {
+        super(props);
+        this.state = {
+          itemsList: []
+        }
+      }
+
+      componentDidMount() {
+        this.mockedFetch({}, {page: 0, rowsPerPage: 50});
+      }
+
+      mockedFetch = (filterOptions, paginationInfo) => {
+        // Filter by custom filters.
+        let filterNames = Object.keys(filterOptions).filter(item => item !== 'sortPairs');
+        let filterIndex, length;
+        let filteredList = itemsList.filter(item => {
+          for (filterIndex = 0, length = filterNames.length; filterIndex < length; filterIndex++) {
+            if (item[filterNames[filterIndex]].toString().indexOf(filterOptions[filterNames[filterIndex]]) < 0) {
+              return false;
+            }
+          }
+          return true;
+        });
+        // Filter by pagination info.
+        let pageList = filteredList.slice(paginationInfo.page * paginationInfo.rowsPerPage, (paginationInfo.page + 1) * paginationInfo.rowsPerPage);
+
+        this.setState({
+          itemsList: pageList,
+          totalNumberOfEntities: filteredList.length
+        })
+      };
+
+      render() {
+        return (
+          <Table
+            filter={true}
+            items={this.state.itemsList}
+            totalNumberOfEntities={this.state.totalNumberOfEntities}
+            paginator={true}
+            tableDefinition={tableDefinitionFilters}
+            fetchCallback={this.mockedFetch}
+          />
+        )
+      }
+    }
     return (
-      <Table filter={true} items={itemsList} paginator={true} tableDefinition={tableDefinition}/>
+      <Wrapper />
     )
   })
   .add('object, no table definition', () => {

@@ -300,7 +300,6 @@ const render = (props) => {
     case 'color':
       return colorField(props);
     case 'multiValueSelect':
-      console.log(props);
       return multiValueSelect(props);
     default:
       return simpleField(props);

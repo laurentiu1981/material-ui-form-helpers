@@ -53,6 +53,8 @@
     "babel-loader": "^8.0.2",
     "babel-plugin-require-context-hook": "^1.0.0",
     "css-loader": "^2.1.1",
+    "eslint-plugin-jest": "^23.13.1",
+    "eslint-plugin-react-hooks": "^4.0.2",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^24.9.0",
     "node-sass": "^4.11.0",

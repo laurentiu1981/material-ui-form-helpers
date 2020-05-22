@@ -49,7 +49,7 @@ class BasicTable extends React.Component {
     this._initialize(props);
     this.state = {
       filterOptions: {},
-      paginationInfo: {}
+      paginationInfo: props.paginatorInfo,
     };
   }
 
@@ -60,6 +60,7 @@ class BasicTable extends React.Component {
 
   _initialize(props) {
     this.items = _.isArray(props.items) ? props.items : Object.values(props.items);
+    this.totalNumberOfEntities = props.totalNumberOfEntities || this.items.length;
     if (props.preprocessItemsCallback) {
       this.items = props.preprocessItemsCallback(this.items);
     }
@@ -102,9 +103,14 @@ class BasicTable extends React.Component {
   }
 
   renderBody() {
+    const { autoPaginateItems } = this.props;
+    const { page, rowsPerPage } = this.state.paginationInfo;
     return (
       <TableBody>
-        {this.items.map((item, index) => this.renderRow(item, index))}
+        {!autoPaginateItems ?
+          this.items.map(this.renderRow) :
+          this.items.slice(page * rowsPerPage, (page + 1) * rowsPerPage).map(this.renderRow)
+        }
       </TableBody>
     )
 
@@ -146,7 +152,7 @@ class BasicTable extends React.Component {
   }
 
   renderRow(item, key) {
-    const {classes} = this.props;
+    const { classes } = this.props;
     return (
 
       <TableRow className={classes.row} key={key}>
@@ -157,17 +163,24 @@ class BasicTable extends React.Component {
     );
   }
 
-  updatePagination = (paginationInfo) => {
-    this.setState({paginationInfo: {...this.state.paginationInfo, ...paginationInfo}}, () => {
+  /**
+   * Invoke fetch callback if provided.
+   */
+  invokeFetchCallback = () => {
+    if (this.props.fetchCallback) {
       this.props.fetchCallback(this.state.filterOptions, this.state.paginationInfo);
-    });
+    }
+  };
 
+  updatePagination = (paginationInfo) => {
+    this.setState({paginationInfo: {...this.state.paginationInfo, ...paginationInfo}}, this.invokeFetchCallback);
   };
 
   applyFilter = (filterOptions) => {
-    this.setState({filterOptions: {...this.state.filterOptions, ...filterOptions}}, () => {
-      this.props.fetchCallback(this.state.filterOptions, this.state.paginationInfo);
-    })
+    this.setState({
+      filterOptions: { ...filterOptions },
+      paginationInfo: { ...this.state.paginationInfo, page: 0 },
+    }, this.invokeFetchCallback);
   };
 
   defaultSorts = () => {
@@ -183,17 +196,21 @@ class BasicTable extends React.Component {
     this.setState({
       filterOptions: {},
       paginationInfo: {...this.state.paginationInfo, page: 0, rowsPerPage: this.props.paginatorInfo.rowsPerPage}
-    }, () => {
-      this.props.fetchCallback({}, {page: 0, rowsPerPage: this.props.paginatorInfo.rowsPerPage});
-    });
+    }, this.invokeFetchCallback);
   };
 
   render() {
     const {classes, reloading, paginator, filter} = this.props;
     return (
       <Paper className={classes.root}>
-        {filter && <TableFilterForm onSubmit={this.applyFilter} tableDefinition={this.props.tableDefinition}
-                                    defaultSort={this.defaultSorts()} onResetCallback={this.onReset}/>
+        {
+          filter &&
+          <TableFilterForm
+            onSubmit={this.applyFilter}
+            tableDefinition={this.props.tableDefinition}
+            defaultSort={this.defaultSorts()}
+            onResetCallback={this.onReset}
+          />
         }
         <Table className={classes.table}>
           {this.renderSectionHeader()}
@@ -202,7 +219,7 @@ class BasicTable extends React.Component {
         </Table>
         { reloading && <LoadingBox/> }
         { reloading && <LinearProgress/> }
-        { paginator && <Paginator {...this.state.paginationInfo}/> }
+        { paginator && <Paginator updatePaginationCallback={this.updatePagination} {...this.state.paginationInfo} totalNumberOfEntities={this.totalNumberOfEntities}/> }
       </Paper>
     )
   }
@@ -221,8 +238,12 @@ BasicTable.propTypes = {
     PropTypes.bool,
     PropTypes.object,
   ]),
+  paginatorInfo: PropTypes.object,
   fetchCallback: PropTypes.func,
-  filter: PropTypes.bool
+  filter: PropTypes.bool,
+  totalNumberOfEntities: PropTypes.number,
+  classes: PropTypes.object,
+  autoPaginateItems: PropTypes.bool,
 };
 
 BasicTable.defaultProps = {
@@ -230,7 +251,13 @@ BasicTable.defaultProps = {
   tableDefinition: [],
   reloading: false,
   paginator: false,
+  paginatorInfo: {
+    page: 0,
+    rowsPerPage: 50,
+    rowsPerPageOptions: [10, 20, 50],
+  },
   filter: false,
+  autoPaginateItems: false,
 };
 
 export default withStyles(styles)(BasicTable);

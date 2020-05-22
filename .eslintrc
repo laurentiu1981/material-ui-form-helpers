@@ -1,3 +1,46 @@
 {
-  "extends": "@tulipjs"
+  "env": {
+    "browser": true,
+    "es6": true,
+    "commonjs": true
+  },
+  "settings": {
+    "react": {
+      "version": "latest"
+    }
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:jest/recommended"
+  ],
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "parser": "babel-eslint",
+  "plugins": ["react", "jest", "react-hooks"],
+  "rules": {
+    "no-console": "off",
+    "curly": "warn",
+    "strict": ["error", "global"],
+    "jest/no-disabled-tests": "warn",
+    "jest/no-focused-tests": "error",
+    "jest/no-identical-title": "error",
+    "jest/prefer-to-have-length": "warn",
+    "jest/valid-expect": "error",
+    "jest/consistent-test-it": "warn",
+    "jest/valid-describe": "warn",
+    "react/prop-types": "warn",
+    "react/react-in-jsx-scope": "off",
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn"
+  }
 }

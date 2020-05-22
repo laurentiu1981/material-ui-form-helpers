@@ -1,7 +1,7 @@
 import React from 'react';
 import Chip from "@material-ui/core/Chip";
 import {renderField} from "../../renderField";
-import {Field, FieldArray, reduxForm, change, unregisterField, arrayRemove } from "redux-form";
+import {Field, FieldArray, reduxForm, change, propTypes, arrayRemove } from "redux-form";
 import Button from "@material-ui/core/Button";
 import Paper from "@material-ui/core/Paper";
 import {withStyles} from "@material-ui/core";
@@ -14,7 +14,7 @@ import {connect} from "react-redux";
 import PropTypes from 'prop-types';
 import _ from 'lodash';
 
-const styles = (theme) => ({
+const styles = () => ({
   addCircle: {
     display: 'flex',
     alignItems: 'center',
@@ -62,6 +62,13 @@ const FilterFormField = (props) => {
   }
 };
 
+FilterFormField.propTypes = {
+  name: PropTypes.string,
+  label: PropTypes.string,
+  type: PropTypes.string,
+  key: PropTypes.number,
+};
+
 class TableFilterForm extends React.Component {
 
   constructor(props) {
@@ -70,7 +77,7 @@ class TableFilterForm extends React.Component {
       isAdvanced: false,
       submittedData: {"sortPairs": props.defaultSort},
     };
-  };
+  }
 
   renderField = field => (
     <FilterFormField
@@ -95,7 +102,7 @@ class TableFilterForm extends React.Component {
     if (this.state.isAdvanced) {
       const sortFields = this.props.tableDefinition
         .filter((field) => {
-          return field.hasOwnProperty("sort") && field.filter.hasOwnProperty("type")
+          return field.hasOwnProperty("sort")
         });
       return (
         <div>
@@ -183,10 +190,13 @@ class TableFilterForm extends React.Component {
   };
 
   handleChipDeleteForFilter = (keyChipToDelete) => () => {
-    if(this.state.submittedData.hasOwnProperty(keyChipToDelete)) {
+    if (this.state.submittedData.hasOwnProperty(keyChipToDelete)) {
       const submittedData = _.omit(this.state.submittedData, keyChipToDelete);
-      this.setState({submittedData: submittedData},
-        () => { this.props.onSubmit(this.state.submittedData) });
+      this.props.changeFieldValue(keyChipToDelete, '');
+      this.setState({ submittedData: submittedData },
+        () => {
+          this.props.onSubmit(this.state.submittedData);
+        });
     }
   };
 
@@ -202,7 +212,7 @@ class TableFilterForm extends React.Component {
   };
 
   render() {
-    const {submitting, classes, fields, submittedData} = this.props;
+    const {submitting} = this.props;
     const isSubmitting = submitting ? 1 : 0;
     return (
       <FormWrapper>
@@ -246,11 +256,16 @@ const mapDispatchToProps = (dispatch) => {
 };
 
 TableFilterForm.propTypes = {
-  onResetCallback: PropTypes.func
+  ...propTypes,
+  onResetCallback: PropTypes.func,
+  handleSubmit: PropTypes.func,
+  onSubmit: PropTypes.func,
+  tableDefinition: PropTypes.object,
+  defaultSort: PropTypes.array,
 };
 
-TableFilterForm = reduxForm({
+const TableFilterFormRedux = reduxForm({
   form: 'TableFilterForm'
 })(TableFilterForm);
 
-export default withStyles(styles)(connect(mapStateToProps, mapDispatchToProps)(TableFilterForm));
+export default withStyles(styles)(connect(mapStateToProps, mapDispatchToProps)(TableFilterFormRedux));

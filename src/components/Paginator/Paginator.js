@@ -48,6 +48,7 @@ class Paginator extends React.Component {
 Paginator.propTypes = {
   page: PropTypes.number,
   rowsPerPage: PropTypes.number,
+  rowsPerPageOptions: PropTypes.array,
   totalNumberOfEntities: PropTypes.number,
   updatePaginationCallback: PropTypes.func,
 };
@@ -56,6 +57,7 @@ Paginator.defaultProps = {
   page: 0,
   rowsPerPage: 10,
   totalNumberOfEntities: 10,
+  rowsPerPageOptions: [10, 20, 50],
   updatePaginationCallback: () => {},
 };
 
