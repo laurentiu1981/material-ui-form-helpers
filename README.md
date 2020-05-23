@@ -11,3 +11,10 @@ Navigate to [http://localhost:9001](http://localhost:9001) to view your stories.
 
 Storybook will pick up any story from the `stories.js` file in a component folder. 
 
+## Release
+
+Update release version manually.
+```bash
+$ npm publish
+```
+Push changes on github.
