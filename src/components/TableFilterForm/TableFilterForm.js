@@ -208,7 +208,9 @@ class TableFilterForm extends React.Component {
   onCancel = () => {
     this.props.destroy('TableFilterForm');
     this.setState({submittedData: {}});
-    this.props.onResetCallback();
+    if (this.props.onResetCallback) {
+      this.props.onResetCallback();
+    }
   };
 
   render() {
@@ -260,7 +262,7 @@ TableFilterForm.propTypes = {
   onResetCallback: PropTypes.func,
   handleSubmit: PropTypes.func,
   onSubmit: PropTypes.func,
-  tableDefinition: PropTypes.object,
+  tableDefinition: PropTypes.array,
   defaultSort: PropTypes.array,
 };
 

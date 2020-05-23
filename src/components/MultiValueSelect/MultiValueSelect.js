@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 
 import PropTypes from 'prop-types';
 import {Grid, Button, IconButton} from "@material-ui/core";
+import _ from 'lodash';
 import {AddCircle, Delete} from "@material-ui/icons";
 import {Field, formValueSelector, change} from 'redux-form';
 import Table from '../Table/Table';

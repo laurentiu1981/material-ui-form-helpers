@@ -1,7 +1,7 @@
 import React from 'react';
-import {createStore, applyMiddleware} from 'redux';
+import { combineReducers, createStore } from 'redux';
 import {fireEvent, render} from '@testing-library/react'
-import reducers from 'reducers';
+import {reducer as form} from 'redux-form';
 import TableFilterForm from './TableFilterForm';
 import {Provider} from "react-redux";
 import '@testing-library/jest-dom/extend-expect';
@@ -24,7 +24,7 @@ describe('TableFilterForm Tests', () => {
   let store;
 
   beforeEach(() => {
-    store = createStore(reducers);
+    store = createStore(combineReducers({form}));
   });
 
   test('Table Filter Form - submit', (done) => {
