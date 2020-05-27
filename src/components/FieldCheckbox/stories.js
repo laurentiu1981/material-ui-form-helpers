@@ -15,6 +15,7 @@ storiesOf('FieldCheckbox', module)
 				type="checkbox"
 				label="Checkbox"
 				checked={true}
+				name="test_checkbox"
 			/>
 		);
 	})
@@ -25,6 +26,7 @@ storiesOf('FieldCheckbox', module)
 				type="checkbox"
 				label="Checkbox"
 				checked={false}
+				name="test_checkbox"
 			/>
 		);
 	})
@@ -35,6 +37,7 @@ storiesOf('FieldCheckbox', module)
 				type="datePicker"
 				label="Date Picker"
 				error={true}
+				name="test_checkbox"
 			/>
 		);
 	});

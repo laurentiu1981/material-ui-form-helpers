@@ -48,6 +48,7 @@ storiesOf('FieldSelect', module)
         type="chosenSelect"
         component={renderField}
         options={options}
+				name="test_name"
       />
     )
   })
@@ -58,6 +59,7 @@ storiesOf('FieldSelect', module)
         type="chosenMultiSelect"
         component={renderField}
         options={options}
+				name="test_name"
       />
     )
   })
@@ -68,6 +70,7 @@ storiesOf('FieldSelect', module)
 				type="chosenSelect"
 				component={renderField}
 				options={groups}
+				name="test_name"
 			/>
 		)
 	})
@@ -79,6 +82,7 @@ storiesOf('FieldSelect', module)
         disabled={true}
         component={renderField}
         options={options}
+				name="test_name"
       />
     )
   })
@@ -90,6 +94,7 @@ storiesOf('FieldSelect', module)
         component={renderField}
         options={options}
         meta={{error: "Error message", touched: true}}
+				name="test_name"
       />
     )
   })
@@ -101,6 +106,7 @@ storiesOf('FieldSelect', module)
 				component={renderField}
 				options={options}
 				meta={{error: ["Error message", "Error message 2"], touched: true}}
+				name="test_name"
 			/>
 		)
 	})
@@ -112,6 +118,7 @@ storiesOf('FieldSelect', module)
         component={renderField}
         options={options}
         required
+				name="test_name"
       />
     )
   })
