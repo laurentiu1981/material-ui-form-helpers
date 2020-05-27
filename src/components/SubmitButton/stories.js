@@ -7,7 +7,7 @@ storiesOf('SubmitButton', module)
   .add('default', () => {
     return (
       <SubmitButton
-        is_submitting={0}
+        isSubmitting={false}
         type="submit"
         variant="contained">
         Submit
@@ -17,7 +17,7 @@ storiesOf('SubmitButton', module)
   .add('submitting', () => {
     return (
       <SubmitButton
-        is_submitting={1}
+        isSubmitting={true}
         type="submit"
         variant="contained"
       >
