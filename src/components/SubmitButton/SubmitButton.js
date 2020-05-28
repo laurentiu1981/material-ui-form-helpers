@@ -32,7 +32,7 @@ const SubmitButton = (props) => {
 
   const {isSubmitting, sizeCircularProgress, colorCircularProgress, ...buttonProps} = props;
   return (
-    <Button {...buttonProps}>
+    <Button type='submit' className={classes.buttonRoot} {...buttonProps}>
       {
         renderProgress(isSubmitting, sizeCircularProgress, colorCircularProgress)
       }
