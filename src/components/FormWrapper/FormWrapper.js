@@ -9,7 +9,7 @@ const useStyles = makeStyles({
   root: {
     width: '100%',
     marginTop: "25px",
-    position: "relative"
+    position: "relative",
   },
   formRoot: {
     padding: "1em 1em 0 1em"
@@ -18,14 +18,15 @@ const useStyles = makeStyles({
 
 const FormWrapper = (props) => {
   const classes = useStyles(props);
-  const {xs, sm, md, lg} = props;
+  const {xs, sm, md, lg, formComponent, title, titleComponent} = props;
   return (
     <Grid container justify="center">
       <Grid item xs={xs} sm={sm} md={md} lg={lg}>
         <Paper className={classes.root}>
-          {props.title && React.createElement(props.titleComponent, {title: props.title}) }
+          {title && React.createElement(titleComponent, {title: title}) }
           <div className={classes.formRoot}>
-            {React.createElement(props.formComponent, {...props})}
+            {formComponent && React.createElement(formComponent, {...props})}
+            {props.children}
           </div>
         </Paper>
       </Grid>
@@ -35,7 +36,7 @@ const FormWrapper = (props) => {
 
 FormWrapper.propTypes = {
   title: PropTypes.string,
-  formComponent: PropTypes.any.isRequired,
+  formComponent: PropTypes.any,
   titleComponent: PropTypes.any,
   xs: PropTypes.number,
   sm: PropTypes.number,

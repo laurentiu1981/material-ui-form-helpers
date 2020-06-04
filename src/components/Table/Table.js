@@ -1,7 +1,7 @@
 import React from 'react';
 import autobind from 'class-autobind';
 import PropTypes from 'prop-types';
-import {withStyles} from '@material-ui/core';
+import {withStyles} from '@material-ui/core/styles';
 import Table from '@material-ui/core/Table';
 import TableBody from '@material-ui/core/TableBody';
 import TableCell from '@material-ui/core/TableCell';
@@ -14,6 +14,7 @@ import _ from 'lodash';
 import SectionHeader from "./SectionHeader";
 import Paginator from "../Paginator";
 import TableFilterForm from "../TableFilterForm";
+import TableSortLabel from "@material-ui/core/TableSortLabel";
 
 
 const styles = theme => ({
@@ -28,7 +29,16 @@ const styles = theme => ({
       backgroundColor: theme.palette.background.default,
     },
   },
+  sortOrderNumber: {
+
+  }
 });
+
+const CustomTableHead = withStyles(theme => ({
+  root: {
+    backgroundColor: theme.palette.common.black
+  }
+}))(TableHead);
 
 const CustomTableCell = withStyles(theme => ({
   head: {
@@ -41,6 +51,33 @@ const CustomTableCell = withStyles(theme => ({
   },
 }))(TableCell);
 
+const CustomTableSortLabel = withStyles(theme => ({
+  root: {
+    color: theme.palette.common.white,
+    '&:hover': {
+      color: theme.palette.common.white,
+    },
+    '&$active': {
+      color: theme.palette.common.white,
+      '&& $icon': {
+        color: theme.palette.common.white,
+      }
+    }
+  },
+  active: {
+    color: theme.palette.common.white,
+    '&:hover': {
+      color: theme.palette.common.white,
+    },
+  },
+  icon: {
+    color: theme.palette.common.white,
+    '&:hover': {
+      color: theme.palette.common.white,
+    }
+  }
+}))(TableSortLabel);
+
 
 class BasicTable extends React.Component {
   constructor(props) {
@@ -50,6 +87,8 @@ class BasicTable extends React.Component {
     this.state = {
       filterOptions: {},
       paginationInfo: props.paginatorInfo,
+      orderBy: [],
+      order: {}
     };
   }
 
@@ -89,36 +128,143 @@ class BasicTable extends React.Component {
   }
 
   renderHeader() {
-    let header = this.tableDefinition.map(item => ({label: item['label']}));
-    if (header.length) {
+    if (this.tableDefinition) {
       return (
-        <TableHead>
+        <CustomTableHead>
           <TableRow>
-            {header.map((item, index) => this.renderHeaderCell(item, index))}
+            {this.tableDefinition.map((item, index) => this.renderHeaderCell(item, index))}
           </TableRow>
-        </TableHead>
+        </CustomTableHead>
       )
     }
     return null;
   }
 
+  descendingComparator = (a, b, orderBy, level, sort, directionFactor) => {
+    if (b[orderBy[level]] < a[orderBy[level]]) {
+      return -1 * directionFactor;
+    }
+    if (b[orderBy[level]] > a[orderBy[level]]) {
+      return 1 * directionFactor;
+    }
+    if (level + 1 === orderBy.length || !orderBy.length) {
+      return 0;
+    }
+    level++;
+    return sort.order[sort.orderBy[level]] === 'desc'
+      ? this.descendingComparator(a, b, orderBy, level, sort, 1)
+      : this.descendingComparator(a, b, orderBy, level, sort, -1);
+  }
+
+  getComparator(sort) {
+    let orderByProperty = sort.orderBy.map(item => this.props.tableDefinition[item]['property']);
+    return sort.order[sort.orderBy[0]] === 'desc'
+      ? (a, b) => this.descendingComparator(a, b, orderByProperty, 0, sort, 1)
+      : (a, b) => this.descendingComparator(a, b, orderByProperty, 0, sort, -1);
+  }
+
+
   renderBody() {
-    const { autoPaginateItems } = this.props;
+    const { autoPaginateItems, autoSortItems, sort, filter, autoFilter } = this.props;
     const { page, rowsPerPage } = this.state.paginationInfo;
+    const { filterOptions } = this.state;
+    let items;
+    if (filter && autoFilter) {
+      let filterNames = Object.keys(filterOptions);
+      let filterIndex, length;
+      items = this.items.filter(item => {
+        for (filterIndex = 0, length = filterNames.length; filterIndex < length; filterIndex++) {
+          if (item[filterNames[filterIndex]].toString().indexOf(filterOptions[filterNames[filterIndex]]) < 0) {
+            return false;
+          }
+        }
+        return true;
+      });
+    }
+    else{
+      items = this.items;
+    }
+    if (sort && autoSortItems) {
+      const sortOptions = {order: this.state.order, orderBy: this.state.orderBy};
+      items = items.sort(this.getComparator(sortOptions))
+    }
+
     return (
       <TableBody>
         {!autoPaginateItems ?
-          this.items.map(this.renderRow) :
-          this.items.slice(page * rowsPerPage, (page + 1) * rowsPerPage).map(this.renderRow)
+          items.map(this.renderRow) :
+          items.slice(page * rowsPerPage, (page + 1) * rowsPerPage).map(this.renderRow)
         }
       </TableBody>
     )
 
   }
 
+  handleSort(e, index) {
+    let { order, orderBy } = this.state;
+    const { multiSort } = this.props;
+    // Shift no
+    if (!e.shiftKey || !multiSort) {
+      if (this._isOrderedBy(index)) {
+        order = {[index]: (order[index] === 'asc' ? 'desc' : 'asc')};
+      }
+      else {
+        order[index] = 'asc';
+      }
+      orderBy = [index];
+    }
+    else {
+      // Shift yes, already in list
+      if (this._isOrderedBy(index)) {
+        if (order[index] === 'asc') {
+          order[index] = 'desc';
+        }
+        else {
+          delete(order[index]);
+          orderBy.splice(orderBy.indexOf(index), 1)
+        }
+      }
+      // Shift yes, not in list
+      else {
+        order[index] = 'asc';
+        orderBy.push(index);
+      }
+    }
+    this.setState({
+      order: order,
+      orderBy: orderBy
+    }, this.invokeFetchCallback)
+  }
+
+  _isOrderedBy(index) {
+    return this.state.orderBy.indexOf(index) > -1;
+  }
+
+  _sortOrder(index) {
+    return this.state.orderBy.indexOf(index) + 1;
+  }
+
   renderHeaderCell(itemDefinition, index) {
+    const { order } = this.state;
+    const { sort, multiSort } = this.props;
+    const isSorted = this._isOrderedBy(index);
+    const sortOrder = this._sortOrder(index);
     return (
-      <CustomTableCell key={index} {...itemDefinition}>{itemDefinition['label']}</CustomTableCell>
+      <CustomTableCell
+        key={index}
+        sortDirection={ isSorted ? order[index] : false}
+      >
+        {sort && itemDefinition.sort && <CustomTableSortLabel
+          active={ isSorted }
+          direction={ isSorted ? order[index] : 'asc'}
+          onClick={(e) => this.handleSort(e, index)}
+        >
+          {itemDefinition['label']}
+        </CustomTableSortLabel>}
+        {sort && itemDefinition.sort && multiSort && sortOrder > 0 ? <span>{`${sortOrder}`}</span>: ''}
+        {(!sort || !itemDefinition.sort) && itemDefinition['label']}
+
+      </CustomTableCell>
     )
   }
 
@@ -168,7 +314,7 @@ class BasicTable extends React.Component {
    */
   invokeFetchCallback = () => {
     if (this.props.fetchCallback) {
-      this.props.fetchCallback(this.state.filterOptions, this.state.paginationInfo);
+      this.props.fetchCallback(this.state.filterOptions, this.state.paginationInfo, {order: this.state.order, orderBy: this.state.orderBy});
     }
   };
 
@@ -200,17 +346,16 @@ class BasicTable extends React.Component {
   };
 
   render() {
-    const {classes, reloading, paginator, filter} = this.props;
+    const {classes, reloading, paginator, filter, tableFilterFormComponent, tableDefinition} = this.props;
     return (
       <Paper className={classes.root}>
         {
-          filter &&
-          <TableFilterForm
-            onSubmit={this.applyFilter}
-            tableDefinition={this.props.tableDefinition}
-            defaultSort={this.defaultSorts()}
-            onResetCallback={this.onReset}
-          />
+          filter && React.createElement(tableFilterFormComponent, {
+            onSubmit: this.applyFilter,
+            tableDefinition: tableDefinition,
+            defaultSort: this.defaultSorts(),
+            onResetCallback: this.onReset,
+          })
         }
         <Table className={classes.table}>
           {this.renderSectionHeader()}
@@ -239,11 +384,16 @@ BasicTable.propTypes = {
     PropTypes.object,
   ]),
   paginatorInfo: PropTypes.object,
+  autoPaginateItems: PropTypes.bool,
   fetchCallback: PropTypes.func,
   filter: PropTypes.bool,
+  autoFilter: PropTypes.bool,
   totalNumberOfEntities: PropTypes.number,
   classes: PropTypes.object,
-  autoPaginateItems: PropTypes.bool,
+  tableFilterFormComponent: PropTypes.any,
+  multiSort: PropTypes.bool,
+  sort: PropTypes.bool,
+  autoSortItems: PropTypes.bool,
 };
 
 BasicTable.defaultProps = {
@@ -256,8 +406,13 @@ BasicTable.defaultProps = {
     rowsPerPage: 50,
     rowsPerPageOptions: [10, 20, 50],
   },
-  filter: false,
   autoPaginateItems: false,
+  filter: false,
+  autoFilter: false,
+  tableFilterFormComponent: TableFilterForm,
+  multiSort: false,
+  sort: true,
+  autoSortItems: false,
 };
 
 export default withStyles(styles)(BasicTable);

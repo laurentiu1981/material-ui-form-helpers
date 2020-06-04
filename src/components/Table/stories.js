@@ -16,6 +16,13 @@ while (n++ < 100) {
   };
   itemsObject[n] = item;
   itemsList.push(item);
+  item = {
+    name: `Name${n}`,
+    number: n + 100,
+    username: `username${n}d`,
+  };
+  itemsObject[n] = item;
+  itemsList.push(item);
 }
 
 let tableDefinition = [
@@ -74,7 +81,10 @@ let tableDefinitionFilters = [
       "sort": true,
       "filter": {
         "weight": 1,
-        "type": "text"
+        "type": "text",
+        "size": {
+          "md": 5
+        }
       },
       "name": 'number',
     }
@@ -93,6 +103,20 @@ storiesOf('Table', module)
   .add('array, table definition', () => {
     return (
       <Table items={itemsList} tableDefinition={tableDefinition}/>
+    )
+  })
+  .add('with filter and paginator without API', () => {
+    return (
+      <Table
+        items={itemsList}
+        filter={true}
+        autoFilter={true}
+        paginator={true}
+        autoPaginateItems={true}
+        autoSortItems={true}
+        multiSort={true}
+        tableDefinition={tableDefinitionFilters}
+      />
     )
   })
   .add('with paginator', () => {
@@ -115,11 +139,36 @@ storiesOf('Table', module)
         this.mockedFetch({}, {page: 0, rowsPerPage: 50});
       }
 
-      mockedFetch = (filterOptions, paginationInfo) => {
+      descendingComparator = (a, b, orderBy, level, sort, directionFactor) => {
+        if (b[orderBy[level]] < a[orderBy[level]]) {
+          return -1 * directionFactor;
+        }
+        if (b[orderBy[level]] > a[orderBy[level]]) {
+          return 1 * directionFactor;
+        }
+        if (level + 1 === orderBy.length || !orderBy.length) {
+          return 0;
+        }
+        level++;
+        return sort.order[sort.orderBy[level]] === 'desc'
+          ? this.descendingComparator(a, b, orderBy, level, sort, 1)
+          : this.descendingComparator(a, b, orderBy, level, sort, -1);
+      }
+
+      getComparator(sort) {
+        let orderByProperty = sort.orderBy.map(item => tableDefinitionFilters[item]['property']);
+        return sort.order[sort.orderBy[0]] === 'desc'
+          ? (a, b) => this.descendingComparator(a, b, orderByProperty, 0, sort, 1)
+          : (a, b) => this.descendingComparator(a, b, orderByProperty, 0, sort, -1);
+      }
+
+      mockedFetch = (filterOptions, paginationOptions, sortOptions) => {
+
+        let sortedItems = sortOptions && sortOptions.orderBy.length ? [...itemsList].sort(this.getComparator(sortOptions)) : itemsList;
         // Filter by custom filters.
-        let filterNames = Object.keys(filterOptions).filter(item => item !== 'sortPairs');
+        let filterNames = Object.keys(filterOptions);
         let filterIndex, length;
-        let filteredList = itemsList.filter(item => {
+        let filteredList = sortedItems.filter(item => {
           for (filterIndex = 0, length = filterNames.length; filterIndex < length; filterIndex++) {
             if (item[filterNames[filterIndex]].toString().indexOf(filterOptions[filterNames[filterIndex]]) < 0) {
               return false;
@@ -128,7 +177,7 @@ storiesOf('Table', module)
           return true;
         });
         // Filter by pagination info.
-        let pageList = filteredList.slice(paginationInfo.page * paginationInfo.rowsPerPage, (paginationInfo.page + 1) * paginationInfo.rowsPerPage);
+        let pageList = filteredList.slice(paginationOptions.page * paginationOptions.rowsPerPage, (paginationOptions.page + 1) * paginationOptions.rowsPerPage);
 
         this.setState({
           itemsList: pageList,
@@ -145,6 +194,7 @@ storiesOf('Table', module)
             paginator={true}
             tableDefinition={tableDefinitionFilters}
             fetchCallback={this.mockedFetch}
+            multiSort={true}
           />
         )
       }
