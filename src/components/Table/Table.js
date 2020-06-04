@@ -1,7 +1,7 @@
 import React from 'react';
 import autobind from 'class-autobind';
 import PropTypes from 'prop-types';
-import {withStyles} from '@material-ui/core';
+import {withStyles} from '@material-ui/core/styles';
 import Table from '@material-ui/core/Table';
 import TableBody from '@material-ui/core/TableBody';
 import TableCell from '@material-ui/core/TableCell';
@@ -14,6 +14,7 @@ import _ from 'lodash';
 import SectionHeader from "./SectionHeader";
 import Paginator from "../Paginator";
 import TableFilterForm from "../TableFilterForm";
+import TableSortLabel from "@material-ui/core/TableSortLabel";
 
 
 const styles = theme => ({
@@ -30,6 +31,12 @@ const styles = theme => ({
   },
 });
 
+const CustomTableHead = withStyles(theme => ({
+  root: {
+    backgroundColor: theme.palette.common.black
+  }
+}))(TableHead);
+
 const CustomTableCell = withStyles(theme => ({
   head: {
     backgroundColor: theme.palette.common.black,
@@ -41,6 +48,33 @@ const CustomTableCell = withStyles(theme => ({
   },
 }))(TableCell);
 
+const CustomTableSortLabel = withStyles(theme => ({
+  root: {
+    color: theme.palette.common.white,
+    '&:hover': {
+      color: theme.palette.common.white,
+    },
+    '&$active': {
+      color: theme.palette.common.white,
+      '&& $icon': {
+        color: theme.palette.common.white,
+      }
+    }
+  },
+  active: {
+    color: theme.palette.common.white,
+    '&:hover': {
+      color: theme.palette.common.white,
+    },
+  },
+  icon: {
+    color: theme.palette.common.white,
+    '&:hover': {
+      color: theme.palette.common.white,
+    }
+  }
+}))(TableSortLabel);
+
 
 class BasicTable extends React.Component {
   constructor(props) {
@@ -50,6 +84,8 @@ class BasicTable extends React.Component {
     this.state = {
       filterOptions: {},
       paginationInfo: props.paginatorInfo,
+      orderBy: [],
+      order: []
     };
   }
 
@@ -89,14 +125,13 @@ class BasicTable extends React.Component {
   }
 
   renderHeader() {
-    let header = this.tableDefinition.map(item => ({label: item['label']}));
-    if (header.length) {
+    if (this.tableDefinition) {
       return (
-        <TableHead>
+        <CustomTableHead>
           <TableRow>
-            {header.map((item, index) => this.renderHeaderCell(item, index))}
+            {this.tableDefinition.map((item, index) => this.renderHeaderCell(item, index))}
           </TableRow>
-        </TableHead>
+        </CustomTableHead>
       )
     }
     return null;
@@ -116,9 +151,65 @@ class BasicTable extends React.Component {
 
   }
 
+  handleSort(e, index) {
+    let { order, orderBy } = this.state;
+    const { multiSort } = this.props;
+    // Shift no
+    if (!e.shiftKey || !multiSort) {
+      if (this._isOrderedBy(index)) {
+        order = {[index]: (order[index] === 'asc' ? 'desc' : 'asc')};
+      }
+      else {
+        order[index] = 'asc';
+      }
+      orderBy = [index];
+    }
+    else {
+      // Shift yes, already in list
+      if (this._isOrderedBy(index)) {
+        if (order[index] === 'asc') {
+          order[index] = 'desc';
+        }
+        else {
+          delete(order[index]);
+          orderBy.splice(orderBy.indexOf(index), 1)
+        }
+      }
+      // Shift yes, not in list
+      else {
+        order[index] = 'asc';
+        orderBy.push(index);
+      }
+    }
+    this.setState({
+      order: order,
+      orderBy: orderBy
+    })
+  }
+
+  _isOrderedBy(index) {
+    return this.state.orderBy.indexOf(index) > -1;
+  }
+
   renderHeaderCell(itemDefinition, index) {
+    const { order } = this.state;
+    const isSorted = this._isOrderedBy(index);
     return (
-      <CustomTableCell key={index} {...itemDefinition}>{itemDefinition['label']}</CustomTableCell>
+      <CustomTableCell
+        key={index}
+        sortDirection={ isSorted ? order[index] : false}
+        {...itemDefinition}
+      >
+        {itemDefinition.sort  && <CustomTableSortLabel
+          active={ isSorted }
+          direction={ isSorted ? order[index] : 'asc'}
+          onClick={(e) => this.handleSort(e, index)}
+        >
+          {itemDefinition['label']}
+        </CustomTableSortLabel>}
+        {!itemDefinition.sort && itemDefinition['label']}
+
+      </CustomTableCell>
     )
   }
 
@@ -168,7 +259,7 @@ class BasicTable extends React.Component {
    */
   invokeFetchCallback = () => {
     if (this.props.fetchCallback) {
-      this.props.fetchCallback(this.state.filterOptions, this.state.paginationInfo);
+      this.props.fetchCallback(this.state.filterOptions, this.state.paginationInfo, {order: this.state.order, orderBy: this.state.orderBy});
     }
   };
 
@@ -200,17 +291,16 @@ class BasicTable extends React.Component {
   };
 
   render() {
-    const {classes, reloading, paginator, filter} = this.props;
+    const {classes, reloading, paginator, filter, tableFilterFormComponent, tableDefinition} = this.props;
     return (
       <Paper className={classes.root}>
         {
-          filter &&
-          <TableFilterForm
-            onSubmit={this.applyFilter}
-            tableDefinition={this.props.tableDefinition}
-            defaultSort={this.defaultSorts()}
-            onResetCallback={this.onReset}
-          />
+          filter && React.createElement(tableFilterFormComponent, {
+            onSubmit: this.applyFilter,
+            tableDefinition: tableDefinition,
+            defaultSort: this.defaultSorts(),
+            onResetCallback: this.onReset,
+          })
         }
         <Table className={classes.table}>
           {this.renderSectionHeader()}
@@ -244,6 +334,8 @@ BasicTable.propTypes = {
   totalNumberOfEntities: PropTypes.number,
   classes: PropTypes.object,
   autoPaginateItems: PropTypes.bool,
+  tableFilterFormComponent: PropTypes.any,
+  multiSort: PropTypes.bool,
 };
 
 BasicTable.defaultProps = {
@@ -258,6 +350,8 @@ BasicTable.defaultProps = {
   },
   filter: false,
   autoPaginateItems: false,
+  tableFilterFormComponent: TableFilterForm,
+  multiSort: false,
 };
 
 export default withStyles(styles)(BasicTable);

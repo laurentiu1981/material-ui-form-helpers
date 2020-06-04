@@ -74,7 +74,10 @@ let tableDefinitionFilters = [
       "sort": true,
       "filter": {
         "weight": 1,
-        "type": "text"
+        "type": "text",
+        "size": {
+          "md": 5
+        }
       },
       "name": 'number',
     }
@@ -145,6 +148,7 @@ storiesOf('Table', module)
             paginator={true}
             tableDefinition={tableDefinitionFilters}
             fetchCallback={this.mockedFetch}
+            multiSort={true}
           />
         )
       }

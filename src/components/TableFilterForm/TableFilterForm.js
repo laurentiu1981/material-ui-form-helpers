@@ -4,7 +4,8 @@ import {renderField} from "../../renderField";
 import {Field, FieldArray, reduxForm, change, propTypes, arrayRemove } from "redux-form";
 import Button from "@material-ui/core/Button";
 import Paper from "@material-ui/core/Paper";
-import {withStyles} from "@material-ui/core";
+import Grid from "@material-ui/core/Grid";
+import { withStyles } from '@material-ui/core/styles';
 import SubmitButton from "../SubmitButton";
 import {FieldPair} from "./FieldPair";
 import AddCircleIcon from '@material-ui/icons/AddCircle';
@@ -22,42 +23,62 @@ const styles = () => ({
   }
 });
 
+const FilterFormWrapper = withStyles(theme => ({
+  root: {
+    width: '100%',
+    marginTop: 0,
+    position: "relative",
+    borderBottomLeftRadius: 0,
+    borderBottomRightRadius: 0,
+  },
+  formRoot: {
+    padding: "1em"
+  },
+}))(FormWrapper);
+
 const FilterFormField = (props) => {
-  switch (props.type) {
+  const {xs, sm, md, lg, name, label, type, key} = props;
+  switch (type) {
     case 'min-max':
       return (
         <React.Fragment>
-          <Field
-            type="text"
-            component={renderField}
-            name={`${props.name}_min`}
-            key={`${props.label}_min`}
-            label={`${props.label} Min`}
-          >
-            {`${props.label} Min`}
-          </Field>
-          <Field
-            type="text"
-            component={renderField}
-            name={`${props.name}_max`}
-            key={`${props.label}_max`}
-            label={`${props.label} Max`}
-          >
-            {`${props.label} Max`}
-          </Field>
+          <Grid item xs={xs} sm={sm} md={md} lg={lg}>
+            <Field
+              type="text"
+              component={renderField}
+              name={`${name}_min`}
+              key={`${label}_min`}
+              label={`${label} Min`}
+            >
+              {`${label} Min`}
+            </Field>
+          </Grid>
+          <Grid item xs={xs} sm={sm} md={md} lg={lg}>
+            <Field
+              type="text"
+              component={renderField}
+              name={`${name}_max`}
+              key={`${label}_max`}
+              label={`${label} Max`}
+            >
+              {`${label} Max`}
+            </Field>
+          </Grid>
         </React.Fragment>
       );
     default:
       return (
-        <Field
-          type="text"
-          component={renderField}
-          name={props.name}
-          key={props.key}
-          label={props.label}
-        >
-          {props.label}
-        </Field>
+        <Grid item xs={xs} sm={sm} md={md} lg={lg}>
+          <Field
+            type="text"
+            component={renderField}
+            name={name}
+            key={key}
+            label={label}
+          >
+            {label}
+          </Field>
+        </Grid>
       )
   }
 };
@@ -67,7 +88,18 @@ FilterFormField.propTypes = {
   label: PropTypes.string,
   type: PropTypes.string,
   key: PropTypes.number,
+  xs: PropTypes.number,
+  sm: PropTypes.number,
+  md: PropTypes.number,
+  lg: PropTypes.number,
 };
+
+FilterFormField.defaultProps = {
+  xs: 12,
+  sm: 6,
+  md: 3,
+  lg: 2,
+}
 
 class TableFilterForm extends React.Component {
 
@@ -85,37 +117,35 @@ class TableFilterForm extends React.Component {
       key={field.label}
       label={field.label}
       type={field.filter.type}
+      {...(field.filter.size ? field.filter.size : {})}
     >
       {field.label}
     </FilterFormField>
   );
 
-  renderBasicFilters = () => {
+  renderFilters = () => {
     return this.props.tableDefinition
       .filter((field) => {
-        return field.hasOwnProperty("filter") && field.filter.hasOwnProperty("type") && field.filter.hasOwnProperty("basicFilter")
+        return field.hasOwnProperty("filter") &&
+          field.filter.hasOwnProperty("type") &&
+          (field.filter.hasOwnProperty("basicFilter") || this.state.isAdvanced)
       })
       .map(this.renderField);
-  };
+  }
 
-  renderAdvancedFilters = () => {
+  renderSortRules = () => {
     if (this.state.isAdvanced) {
       const sortFields = this.props.tableDefinition
         .filter((field) => {
           return field.hasOwnProperty("sort")
         });
       return (
-        <div>
-          {
-            this.props.tableDefinition
-              .filter((field) => {
-                return field.hasOwnProperty("filter") && field.filter.hasOwnProperty("type") && !field.filter.hasOwnProperty("basicFilter")
-              })
-              .map(this.renderField)
-          }
-          <Typography variant="h6">Sort</Typography>
+        <Grid container spacing={1}>
+          <Grid item xs={12}>
+            <Typography variant="h6">Sort</Typography>
+          </Grid>
           <FieldArray name="sortPairs" availableFields={sortFields} component={this.renderPairs}/>
-        </div>
+        </Grid>
       )
     }
     return null;
@@ -130,9 +160,9 @@ class TableFilterForm extends React.Component {
         {
           fields.map((field, index) => (<FieldPair key={index} field={field} options={options} removeCallback={() => fields.remove(index)}/>))
         }
-        <div className={"add-new-sort-pair"}>
+        <Grid key={"add-new-sort-pair"} className={"add-new-sort-pair"} item xs={12} sm={6} md={3} lg={2}>
           <AddCircleIcon onClick={() => fields.push()}/>
-        </div>
+        </Grid>
       </React.Fragment>
     )
   };
@@ -147,7 +177,7 @@ class TableFilterForm extends React.Component {
                 return (
                   <Chip
                     key={element.fieldName}
-                    label={`${element.fieldName.label}: ${element.direction.label}`}
+                    label={`${element.fieldName.label}: ${element.direction}`}
                     onDelete={this.handleChipDeleteForSort(element)}
                     color="secondary"
                   />
@@ -217,10 +247,20 @@ class TableFilterForm extends React.Component {
     const {submitting} = this.props;
     const isSubmitting = submitting ? 1 : 0;
     return (
-      <FormWrapper>
+      <FilterFormWrapper xs={12} sm={12} md={12} lg={12}>
         <form onSubmit={this.props.handleSubmit(this.onSubmit)} autoComplete="off">
-          {this.renderBasicFilters()}
-          {this.renderAdvancedFilters()}
+          <Grid
+            container
+            spacing={1}
+            direction="row"
+            alignItems="flex-start"
+            justify="center"
+          >
+            <Grid container spacing={1}>
+              {this.renderFilters()}
+            </Grid>
+            {this.renderSortRules()}
+          </Grid>
           <div>
             <Button onClick={this.onClickExpandHandler}>Advanced Filters</Button>
           </div>
@@ -233,7 +273,7 @@ class TableFilterForm extends React.Component {
             Cancel
           </Button>
         </form>
-      </FormWrapper>
+      </FilterFormWrapper>
     )
   }
 }

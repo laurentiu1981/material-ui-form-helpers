@@ -1,6 +1,6 @@
 import React from 'react';
 import { TextField, Typography } from "@material-ui/core";
-import { FieldCheckbox, FieldSelect, FieldColor } from "./components";
+import { FieldCheckbox, FieldSelect, FieldColor, SortDirectionSwitch } from "./components";
 import { makeStyles } from "@material-ui/core";
 import DatePicker from "react-datepicker";
 import _ from 'lodash';
@@ -278,6 +278,19 @@ const multiValueSelect = ({input, label, tableDefinition, labelProperties, group
   )
 };
 
+const sortDirectionSwitch = ({input, label, defaultValue, meta: {touched, error}}) => {
+  return (
+    <div>
+      <SortDirectionSwitch
+        label={label}
+        name={input.name}
+        onChange={input.onChange}
+        value={input.value || defaultValue}
+      />
+    </div>
+  )
+};
+
 const render = (props) => {
   switch (props.type) {
     case 'select':
@@ -301,6 +314,8 @@ const render = (props) => {
       return colorField(props);
     case 'multiValueSelect':
       return multiValueSelect(props);
+    case 'sortDirectionSwitch':
+      return sortDirectionSwitch(props);
     default:
       return simpleField(props);
   }
