@@ -1,6 +1,6 @@
 import React from 'react';
 import Typography from "@material-ui/core/Typography/Typography";
-import {makeStyles} from "@material-ui/styles";
+import { makeStyles } from "@material-ui/styles";
 import Divider from "@material-ui/core/Divider";
 import PropTypes from 'prop-types';
 
@@ -14,10 +14,11 @@ const useStyles = makeStyles({
 
 const FormTitle = (props) => {
   const classes = useStyles(props);
+  const { title } = props;
   return (
     <React.Fragment>
       <Typography variant="h5" component="h2" className={classes.root}>
-        {props.title}
+        {title}
       </Typography>
       <Divider/>
     </React.Fragment>
