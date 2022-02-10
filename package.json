@@ -59,7 +59,7 @@
     "eslint-plugin-react-hooks": "^4.0.2",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^24.9.0",
-    "node-sass": "^4.11.0",
+    "node-sass": "^7.0.0",
     "react-test-renderer": "^16.9.0",
     "redux-devtools-extension": "^2.13.8",
     "rollup": "^1.29.0",
